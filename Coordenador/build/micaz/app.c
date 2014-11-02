@@ -3893,7 +3893,6 @@ static void CoordenadorC__sendMSG(void );
 
 
 
-
 static inline void CoordenadorC__Boot__booted(void );
 
 
@@ -3913,7 +3912,7 @@ static inline void CoordenadorC__AMControl__stopDone(error_t err);
 
 
 static inline void CoordenadorC__Timer0__fired(void );
-#line 100
+#line 99
 static inline void CoordenadorC__AMSend__sendDone(message_t *msg, error_t err);
 
 
@@ -10461,12 +10460,12 @@ static inline void /*SerialAMQueueP.AMQueueImplP*/AMQueueImplP__1__errorTask__ru
   /*SerialAMQueueP.AMQueueImplP*/AMQueueImplP__1__sendDone(/*SerialAMQueueP.AMQueueImplP*/AMQueueImplP__1__current, /*SerialAMQueueP.AMQueueImplP*/AMQueueImplP__1__queue[/*SerialAMQueueP.AMQueueImplP*/AMQueueImplP__1__current].msg, FAIL);
 }
 
-# 100 "CoordenadorC.nc"
+# 99 "CoordenadorC.nc"
 static inline void CoordenadorC__AMSend__sendDone(message_t *msg, error_t err)
-#line 100
+#line 99
 {
   if (&CoordenadorC__pkt == msg) {
-#line 101
+#line 100
       CoordenadorC__busy = FALSE;
     }
 }
@@ -12473,14 +12472,14 @@ inline static message_t * CC2420ActiveMessageP__Snoop__receive(am_id_t arg_0x40c
 #line 78
 }
 #line 78
-# 104 "CoordenadorC.nc"
+# 103 "CoordenadorC.nc"
 static inline message_t *CoordenadorC__Receive__receive(message_t *msg, void *payload, uint8_t len)
-#line 104
+#line 103
 {
   if (len == sizeof(NetworkMsg )) {
       NetworkMsg *btrpkt = (NetworkMsg *)payload;
 
-#line 107
+#line 106
       printf("(NODE %u) : What a great news!!! We've just received a message from the node %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
       printfflush();
     }
@@ -15793,9 +15792,9 @@ static inline void CC2420CsmaP__sendDone_task__runTask(void )
   CC2420CsmaP__Send__sendDone(CC2420CsmaP__m_msg, packetErr);
 }
 
-# 43 "CoordenadorC.nc"
+# 42 "CoordenadorC.nc"
 static inline void CoordenadorC__AMControl__stopDone(error_t err)
-#line 43
+#line 42
 {
 }
 
@@ -15913,9 +15912,9 @@ inline static void CoordenadorC__Timer0__startPeriodic(uint32_t dt){
 #line 64
 }
 #line 64
-# 34 "CoordenadorC.nc"
+# 33 "CoordenadorC.nc"
 static inline void CoordenadorC__AMControl__startDone(error_t err)
-#line 34
+#line 33
 {
   if (err == SUCCESS) {
       CoordenadorC__Timer0__startPeriodic(TIMER_PERIOD_MILLI);
@@ -16503,9 +16502,9 @@ inline static void * CoordenadorC__Packet__getPayload(message_t * msg, uint8_t l
 #line 126
 }
 #line 126
-# 46 "CoordenadorC.nc"
+# 45 "CoordenadorC.nc"
 static inline void CoordenadorC__Timer0__fired(void )
-#line 46
+#line 45
 {
   switch (CoordenadorC__counter % 2) {
       case 0: 
@@ -16514,7 +16513,7 @@ static inline void CoordenadorC__Timer0__fired(void )
             (NetworkMsg *)CoordenadorC__Packet__getPayload(&CoordenadorC__pkt, sizeof(NetworkMsg ));
 
             if (btrpkt == (void *)0) {
-#line 53
+#line 52
                 return;
               }
             __nesc_hton_uint8(btrpkt->node_id.nxdata, TOS_NODE_ID);
@@ -16535,7 +16534,7 @@ static inline void CoordenadorC__Timer0__fired(void )
             (NetworkMsg *)CoordenadorC__Packet__getPayload(&CoordenadorC__pkt, sizeof(NetworkMsg ));
 
             if (btrpkt == (void *)0) {
-#line 72
+#line 71
                 return;
               }
             __nesc_hton_uint8(btrpkt->node_id.nxdata, TOS_NODE_ID);
@@ -17439,9 +17438,9 @@ inline static error_t RealMainP__SoftwareInit__init(void ){
 #line 62
 }
 #line 62
-# 28 "CoordenadorC.nc"
+# 27 "CoordenadorC.nc"
 static inline void CoordenadorC__Boot__booted(void )
-#line 28
+#line 27
 {
   printf("(NODE %u) : Inicializando Coordenador ...\n", TOS_NODE_ID);
   printfflush();
@@ -21437,9 +21436,8 @@ static void CoordenadorC__sendMSG(void )
 #line 20
 {
 
-
   if (
-#line 22
+#line 21
   CoordenadorC__AMSend__send(AM_FFD_ADDR, 
   &CoordenadorC__pkt, sizeof(NetworkMsg )) == SUCCESS) {
       CoordenadorC__busy = TRUE;
