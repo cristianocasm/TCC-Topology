@@ -36,10 +36,13 @@ implementation {
 
     if (len == sizeof(NetworkMsg)) {
       NetworkMsg* btrpkt = (NetworkMsg*)payload;
-      printf("(FFD %u) : message_type: %u.\n", TOS_NODE_ID, btrpkt->message_type);
+
       switch(btrpkt->message_type){
         case SET:
-          printf("(FFD %u) : Mensagem SET recebida de %u.\n", TOS_NODE_ID, btrpkt->node_id);
+          if(btrpkt-> param == TEMP)
+            printf("(FFD %u) : Mensagem SET_TEMPERATURE recebida de %u.\n", TOS_NODE_ID, btrpkt->node_id);
+          else if(btrpkt->param == LIGHT)
+            printf("(FFD %u) : Mensagem SET_LIGHT recebida de %u.\n", TOS_NODE_ID, btrpkt->node_id);
           break;
         case TURN:
           if(btrpkt->param == AIR){

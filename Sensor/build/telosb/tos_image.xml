@@ -1,11 +1,11 @@
 <tos_image>
   <ident>
-    <uidhash>8BBDBADDL</uidhash>
+    <uidhash>D24D5A05L</uidhash>
     <hostname>terra-VirtualBo</hostname>
     <username>terra</username>
     <appname>SensorAppC</appname>
     <userhash>72FEE6B3L</userhash>
-    <timestamp>54580FAAL</timestamp>
+    <timestamp>545A973CL</timestamp>
     <deluge_support>no</deluge_support>
     <platform>telosb</platform>
   </ident>

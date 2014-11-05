@@ -25,8 +25,8 @@ implementation {
           if (btrpkt == NULL) { return; }
 
           btrpkt->node_id = TOS_NODE_ID;
-          btrpkt->message_type = GET;
-          btrpkt->param = TEMP;
+          btrpkt->message_type = type;
+          btrpkt->param = param;
           btrpkt->value = value;
           btrpkt->device_id = device_id;
 
@@ -105,7 +105,7 @@ implementation {
         if(btrpkt->param == TEMP){
             printf("(Coordenador %u) : Temperatura %u graus.\n", TOS_NODE_ID, btrpkt->value);
         }else if(btrpkt->param == LIGHT){
-              printf("(Coordenador %u) : Luminosidade %u lux.\n", TOS_NODE_ID, btrpkt->value);
+            printf("(Coordenador %u) : Luminosidade %u lux.\n", TOS_NODE_ID, btrpkt->value);
           }
       }
     }

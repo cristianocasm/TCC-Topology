@@ -26,10 +26,10 @@
     </wire>
     <wire loc="19:FFDAppC.nc">
       <from><interface-ref name="AMControl" scoped="" ref="0x405671d8"/></from>
-      <to><interface-ref name="SplitControl" scoped="" ref="0x40446378"/></to>
+      <to><interface-ref name="SplitControl" scoped="" ref="0x404463e0"/></to>
     </wire>
     <wire loc="76:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="SplitControl" scoped="" ref="0x40446378"/></from>
+      <from><interface-ref name="SplitControl" scoped="" ref="0x404463e0"/></from>
       <to><interface-ref name="SplitControl" scoped="" ref="0x40588788"/></to>
     </wire>
     <wire loc="20:FFDAppC.nc">
@@ -46,7 +46,7 @@
     </wire>
     <wire loc="54:/opt/tinyos-2.1.2/tos/system/AMReceiverC.nc">
       <from><interface-ref name="Receive" scoped="" ref="0x40d2da48"/></from>
-      <to><interface-ref name="Receive" scoped="" ref="0x40575638"/>
+      <to><interface-ref name="Receive" scoped="" ref="0x40575718"/>
       <arguments>
         <value cst="I:6">
           <type-int cname="unsigned char" unsigned="" size="I:1" alignment="I:1">
@@ -70,7 +70,7 @@
     </wire>
     <wire loc="61:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128Uart0C.nc">
       <from><interface-ref name="SoftwareInit" scoped="" ref="0x4044b4f0"/></from>
-      <to><interface-ref name="Init" scoped="" ref="0x40e396d8"/></to>
+      <to><interface-ref name="Init" scoped="" ref="0x40e3a6d8"/></to>
     </wire>
     <wire loc="59:/opt/tinyos-2.1.2/tos/lib/serial/SerialActiveMessageC.nc">
       <from><interface-ref name="SoftwareInit" scoped="" ref="0x4044b4f0"/></from>
@@ -102,11 +102,11 @@
     </wire>
     <wire loc="66:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
       <from><interface-ref name="SoftwareInit" scoped="" ref="0x4044b4f0"/></from>
-      <to><interface-ref name="Init" scoped="" ref="0x40a76430"/></to>
+      <to><interface-ref name="Init" scoped="" ref="0x40a77430"/></to>
     </wire>
     <wire loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="SoftwareInit" scoped="" ref="0x4044b4f0"/></from>
-      <to><interface-ref name="Init" scoped="" ref="0x40a0b440"/></to>
+      <to><interface-ref name="Init" scoped="" ref="0x40a0c440"/></to>
     </wire>
     <wire loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="SoftwareInit" scoped="" ref="0x4044b4f0"/></from>
@@ -230,7 +230,7 @@
     </wire>
     <wire loc="67:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPortP.nc">
       <from><interface-ref name="Pin1" scoped="" ref="0x404dc968"/></from>
-      <to><interface-ref name="IO" scoped="" ref="0x410bede0"/></to>
+      <to><interface-ref name="IO" scoped="" ref="0x410bfde0"/></to>
     </wire>
     <wire loc="146:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOC.nc">
       <from><interface-ref name="PortB0" scoped="" ref="0x4046fa98"/></from>
@@ -418,7 +418,7 @@
     </wire>
     <wire loc="70:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPortP.nc">
       <from><interface-ref name="Pin4" scoped="" ref="0x404bf170"/></from>
-      <to><interface-ref name="IO" scoped="" ref="0x40fcac08"/></to>
+      <to><interface-ref name="IO" scoped="" ref="0x40fcbc08"/></to>
     </wire>
     <wire loc="161:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOC.nc">
       <from><interface-ref name="PortC6" scoped="" ref="0x40470a98"/></from>
@@ -502,7 +502,7 @@
     </wire>
     <wire loc="69:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPortP.nc">
       <from><interface-ref name="Pin3" scoped="" ref="0x404c8ac8"/></from>
-      <to><interface-ref name="IO" scoped="" ref="0x410407f8"/></to>
+      <to><interface-ref name="IO" scoped="" ref="0x410417f8"/></to>
     </wire>
     <wire loc="178:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOC.nc">
       <from><interface-ref name="PortE5" scoped="" ref="0x404844b0"/></from>
@@ -602,10 +602,10 @@
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="SplitControl" scoped="" ref="0x40588788"/></from>
-      <to><interface-ref name="SplitControl" scoped="" ref="0x405ad010"/></to>
+      <to><interface-ref name="SplitControl" scoped="" ref="0x4059e010"/></to>
     </wire>
     <wire loc="78:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="AMSend" scoped="" ref="0x40446c50"/></from>
+      <from><interface-ref name="AMSend" scoped="" ref="0x40446cb8"/></from>
       <to><interface-ref name="AMSend" scoped="" ref="0x40587100"/></to>
     </wire>
     <wire loc="85:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -613,15 +613,15 @@
       <to><interface-ref name="AMSend" scoped="" ref="0x40c6e100"/></to>
     </wire>
     <wire loc="80:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="Snoop" scoped="" ref="0x40575cd0"/></from>
-      <to><interface-ref name="Snoop" scoped="" ref="0x40595178"/></to>
+      <from><interface-ref name="Snoop" scoped="" ref="0x40575db0"/></from>
+      <to><interface-ref name="Snoop" scoped="" ref="0x40586178"/></to>
     </wire>
     <wire loc="88:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
-      <from><interface-ref name="Snoop" scoped="" ref="0x40595178"/></from>
+      <from><interface-ref name="Snoop" scoped="" ref="0x40586178"/></from>
       <to><interface-ref name="Snoop" scoped="" ref="0x40c6c178"/></to>
     </wire>
     <wire loc="81:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="Packet" scoped="" ref="0x40574040"/></from>
+      <from><interface-ref name="Packet" scoped="" ref="0x40574190"/></from>
       <to><interface-ref name="Packet" scoped="" ref="0x40594190"/></to>
     </wire>
     <wire loc="84:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -629,7 +629,7 @@
       <to><interface-ref name="Packet" scoped="" ref="0x40c6b190"/></to>
     </wire>
     <wire loc="91:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x405722a8"/></from>
+      <from><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x40585408"/></from>
       <to><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x40add6b8"/></to>
     </wire>
     <wire loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
@@ -637,15 +637,15 @@
       <to><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x40ad4100"/></to>
     </wire>
     <wire loc="84:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="LowPowerListening" scoped="" ref="0x4057fb30"/></from>
+      <from><interface-ref name="LowPowerListening" scoped="" ref="0x4057fba8"/></from>
       <to><interface-ref name="LowPowerListening" scoped="" ref="0x40591948"/></to>
     </wire>
     <wire loc="91:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="LowPowerListening" scoped="" ref="0x40591948"/></from>
-      <to><interface-ref name="LowPowerListening" scoped="" ref="0x405b1110"/></to>
+      <to><interface-ref name="LowPowerListening" scoped="" ref="0x405b2110"/></to>
     </wire>
     <wire loc="79:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="Receive" scoped="" ref="0x40575638"/></from>
+      <from><interface-ref name="Receive" scoped="" ref="0x40575718"/></from>
       <to><interface-ref name="Receive" scoped="" ref="0x40587ac0"/></to>
     </wire>
     <wire loc="87:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -653,7 +653,7 @@
       <to><interface-ref name="Receive" scoped="" ref="0x40c6eac0"/></to>
     </wire>
     <wire loc="83:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="PacketAcknowledgements" scoped="" ref="0x405708d0"/></from>
+      <from><interface-ref name="PacketAcknowledgements" scoped="" ref="0x4057da90"/></from>
       <to><interface-ref name="PacketAcknowledgements" scoped="" ref="0x40593230"/></to>
     </wire>
     <wire loc="93:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -661,15 +661,15 @@
       <to><interface-ref name="PacketAcknowledgements" scoped="" ref="0x405a8760"/></to>
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></from>
-      <to><interface-ref name="AMPacket" scoped="" ref="0x405954e8"/></to>
+      <from><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></from>
+      <to><interface-ref name="AMPacket" scoped="" ref="0x405864e8"/></to>
     </wire>
     <wire loc="89:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
-      <from><interface-ref name="AMPacket" scoped="" ref="0x405954e8"/></from>
+      <from><interface-ref name="AMPacket" scoped="" ref="0x405864e8"/></from>
       <to><interface-ref name="AMPacket" scoped="" ref="0x40c6c4e8"/></to>
     </wire>
     <wire loc="92:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
-      <from><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40571c58"/></from>
+      <from><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40571db8"/></from>
       <to><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40ada100"/></to>
     </wire>
     <wire loc="60:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
@@ -677,7 +677,7 @@
       <to><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40ad2af8"/></to>
     </wire>
     <wire loc="97:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="SplitControl" scoped="" ref="0x405ad010"/></from>
+      <from><interface-ref name="SplitControl" scoped="" ref="0x4059e010"/></from>
       <to><interface-ref name="SplitControl" scoped="" ref="0x40c5e568"/></to>
     </wire>
     <wire loc="83:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -690,14 +690,14 @@
     </wire>
     <wire loc="92:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="CC2420Packet" scoped="" ref="0x4058e9a0"/></from>
-      <to><interface-ref name="CC2420Packet" scoped="" ref="0x405abee8"/></to>
+      <to><interface-ref name="CC2420Packet" scoped="" ref="0x405acee8"/></to>
     </wire>
     <wire loc="84:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="CC2420Packet" scoped="" ref="0x405abee8"/></from>
+      <from><interface-ref name="CC2420Packet" scoped="" ref="0x405acee8"/></from>
       <to><interface-ref name="CC2420Packet" scoped="" ref="0x40abeba0"/></to>
     </wire>
     <wire loc="83:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="LowPowerListening" scoped="" ref="0x405b1110"/></from>
+      <from><interface-ref name="LowPowerListening" scoped="" ref="0x405b2110"/></from>
       <to><interface-ref name="LowPowerListening" scoped="" ref="0x40c61f18"/></to>
     </wire>
     <wire loc="85:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
@@ -706,10 +706,10 @@
     </wire>
     <wire loc="90:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="PacketLink" scoped="" ref="0x405a0258"/></from>
-      <to><interface-ref name="PacketLink" scoped="" ref="0x405b1730"/></to>
+      <to><interface-ref name="PacketLink" scoped="" ref="0x405b2730"/></to>
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="PacketLink" scoped="" ref="0x405b1730"/></from>
+      <from><interface-ref name="PacketLink" scoped="" ref="0x405b2730"/></from>
       <to><interface-ref name="PacketLink" scoped="" ref="0x40c60e40"/></to>
     </wire>
     <wire loc="94:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -732,18 +732,18 @@
     </wire>
     <wire loc="98:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="SubSend" scoped="" ref="0x40c6aa88"/></from>
-      <to><interface-ref name="ActiveSend" scoped="" ref="0x405ab3c8"/></to>
+      <to><interface-ref name="ActiveSend" scoped="" ref="0x405ac3c8"/></to>
     </wire>
     <wire loc="93:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="ActiveSend" scoped="" ref="0x405ab3c8"/></from>
+      <from><interface-ref name="ActiveSend" scoped="" ref="0x405ac3c8"/></from>
       <to><interface-ref name="ActiveSend" scoped="" ref="0x40c1c490"/></to>
     </wire>
     <wire loc="99:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <from><interface-ref name="SubReceive" scoped="" ref="0x40c69220"/></from>
-      <to><interface-ref name="ActiveReceive" scoped="" ref="0x405abb50"/></to>
+      <to><interface-ref name="ActiveReceive" scoped="" ref="0x405acb50"/></to>
     </wire>
     <wire loc="94:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
-      <from><interface-ref name="ActiveReceive" scoped="" ref="0x405abb50"/></from>
+      <from><interface-ref name="ActiveReceive" scoped="" ref="0x405acb50"/></from>
       <to><interface-ref name="ActiveReceive" scoped="" ref="0x40c1cc18"/></to>
     </wire>
     <wire loc="101:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -935,20 +935,20 @@
       <to><interface-ref name="CC2420Power" scoped="" ref="0x406161e0"/></to>
     </wire>
     <wire loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
-      <from><interface-ref name="SubControl" scoped="" ref="0x405c1740"/></from>
+      <from><interface-ref name="SubControl" scoped="" ref="0x405c2740"/></from>
       <to><interface-ref name="StdControl" scoped="" ref="0x409e2c08"/></to>
     </wire>
     <wire loc="69:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
-      <from><interface-ref name="SubControl" scoped="" ref="0x405c1740"/></from>
+      <from><interface-ref name="SubControl" scoped="" ref="0x405c2740"/></from>
       <to><interface-ref name="StdControl" scoped="" ref="0x40a7d838"/></to>
     </wire>
     <wire loc="61:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
       <from><interface-ref name="StdControl" scoped="" ref="0x40a7d838"/></from>
-      <to><interface-ref name="StdControl" scoped="" ref="0x40a767d0"/></to>
+      <to><interface-ref name="StdControl" scoped="" ref="0x40a777d0"/></to>
     </wire>
     <wire loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="StdControl" scoped="" ref="0x409e2c08"/></from>
-      <to><interface-ref name="StdControl" scoped="" ref="0x40a0b7e0"/></to>
+      <to><interface-ref name="StdControl" scoped="" ref="0x40a0c7e0"/></to>
     </wire>
     <wire loc="64:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
       <from><interface-ref name="CC2420Transmit" scoped="" ref="0x405becc0"/></from>
@@ -956,7 +956,7 @@
     </wire>
     <wire loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="CC2420Transmit" scoped="" ref="0x409df0f0"/></from>
-      <to><interface-ref name="Send" scoped="" ref="0x40a0bcd8"/></to>
+      <to><interface-ref name="Send" scoped="" ref="0x40a0ccd8"/></to>
     </wire>
     <wire loc="65:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
       <from><interface-ref name="SubBackoff" scoped="" ref="0x405b6518"/></from>
@@ -967,7 +967,7 @@
       <to><interface-ref name="RadioBackoff" scoped="" ref="0x40a0a490"/></to>
     </wire>
     <wire loc="72:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
-      <from><interface-ref name="CC2420Packet" scoped="" ref="0x405d4f10"/></from>
+      <from><interface-ref name="CC2420Packet" scoped="" ref="0x405d5f10"/></from>
       <to><interface-ref name="CC2420Packet" scoped="" ref="0x40abeba0"/></to>
     </wire>
     <wire loc="73:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
@@ -997,7 +997,7 @@
       </to>
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
-      <from><interface-ref name="Leds" scoped="" ref="0x405d4298"/></from>
+      <from><interface-ref name="Leds" scoped="" ref="0x405d5298"/></from>
       <to><interface-ref name="Leds" scoped="" ref="0x40979040"/></to>
     </wire>
     <wire loc="76:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
@@ -1159,7 +1159,7 @@
       </to>
     </wire>
     <wire loc="80:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlC.nc">
-      <from><interface-ref name="IOCFG0" scoped="" ref="0x40626070"/></from>
+      <from><interface-ref name="IOCFG0" scoped="" ref="0x40619070"/></from>
       <to><interface-ref name="IOCFG0" scoped="" ref="0x409a8f18"/></to>
     </wire>
     <wire loc="144:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -1173,7 +1173,7 @@
       </to>
     </wire>
     <wire loc="81:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlC.nc">
-      <from><interface-ref name="IOCFG1" scoped="" ref="0x40626578"/></from>
+      <from><interface-ref name="IOCFG1" scoped="" ref="0x40619578"/></from>
       <to><interface-ref name="IOCFG1" scoped="" ref="0x409a7368"/></to>
     </wire>
     <wire loc="145:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -1187,7 +1187,7 @@
       </to>
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlC.nc">
-      <from><interface-ref name="MDMCTRL0" scoped="" ref="0x40626a98"/></from>
+      <from><interface-ref name="MDMCTRL0" scoped="" ref="0x40619a98"/></from>
       <to><interface-ref name="MDMCTRL0" scoped="" ref="0x409ace50"/></to>
     </wire>
     <wire loc="133:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -1300,10 +1300,10 @@
     </wire>
     <wire loc="94:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlC.nc">
       <from><interface-ref name="RssiResource" scoped="" ref="0x406337c0"/></from>
-      <to><interface-ref name="Resource" scoped="" ref="0x409c7010"/></to>
+      <to><interface-ref name="Resource" scoped="" ref="0x409c8010"/></to>
     </wire>
     <wire loc="112:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="Resource" scoped="" ref="0x409c7010"/></from>
+      <from><interface-ref name="Resource" scoped="" ref="0x409c8010"/></from>
       <to><interface-ref name="Resource" scoped="" ref="0x4084c7b0"/>
       <arguments>
         <value cst="I:2">
@@ -1370,7 +1370,7 @@
     </wire>
     <wire loc="33:/opt/tinyos-2.1.2/tos/platforms/mica/Counter32khz32C.nc">
       <from><interface-ref name="Counter" scoped="" ref="0x4077a648"/></from>
-      <to><interface-ref name="Counter" scoped="" ref="0x40778e60"/></to>
+      <to><interface-ref name="Counter" scoped="" ref="0x40795e60"/></to>
     </wire>
     <wire loc="43:/opt/tinyos-2.1.2/tos/platforms/mica/AlarmOne16C.nc">
       <from><interface-ref name="HplAtm128Timer" scoped="" ref="0x41164920"/></from>
@@ -1395,7 +1395,7 @@
       <to><interface-ref name="TimerCtrl" scoped="" ref="0x406e9520"/></to>
     </wire>
     <wire loc="57:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer1C.nc">
-      <from><interface-ref name="Capture" scoped="" ref="0x4069eb10"/></from>
+      <from><interface-ref name="Capture" scoped="" ref="0x4069fb10"/></from>
       <to><interface-ref name="Capture" scoped="" ref="0x406fc258"/></to>
     </wire>
     <wire loc="59:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer1C.nc">
@@ -1445,8 +1445,8 @@
       <to><interface-ref name="Compare" scoped="" ref="0x406be7d8"/></to>
     </wire>
     <wire loc="60:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer0AsyncC.nc">
-      <from><interface-ref name="Timer" scoped="" ref="0x406aba28"/></from>
-      <to><interface-ref name="Timer" scoped="" ref="0x406b2b08"/></to>
+      <from><interface-ref name="Timer" scoped="" ref="0x4069ca28"/></from>
+      <to><interface-ref name="Timer" scoped="" ref="0x406b3b08"/></to>
     </wire>
     <wire loc="27:/opt/tinyos-2.1.2/tos/platforms/mica/InitOneP.nc">
       <from><interface-ref name="Timer" scoped="" ref="0x40750220"/></from>
@@ -1461,7 +1461,7 @@
       <to><interface-ref name="Counter" scoped="" ref="0x4078c890"/></to>
     </wire>
     <wire loc="32:/opt/tinyos-2.1.2/tos/platforms/mica/CounterOne16C.nc">
-      <from><interface-ref name="Timer" scoped="" ref="0x40781a58"/></from>
+      <from><interface-ref name="Timer" scoped="" ref="0x4078ba58"/></from>
       <to><interface-ref name="Timer" scoped="" ref="0x40697d60"/></to>
     </wire>
     <wire loc="101:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420PinsC.nc">
@@ -1490,7 +1490,7 @@
     </wire>
     <wire loc="50:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420InterruptsC.nc">
       <from><interface-ref name="Atm128Capture" scoped="" ref="0x407df3e0"/></from>
-      <to><interface-ref name="Capture" scoped="" ref="0x4069eb10"/></to>
+      <to><interface-ref name="Capture" scoped="" ref="0x4069fb10"/></to>
     </wire>
     <wire loc="55:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420InterruptsC.nc">
       <from><interface-ref name="Atm128Interrupt" scoped="" ref="0x407e9050"/></from>
@@ -1513,7 +1513,7 @@
       <to><interface-ref name="Irq" scoped="" ref="0x40812718"/></to>
     </wire>
     <wire loc="78:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
-      <from><interface-ref name="Int7" scoped="" ref="0x407ef168"/></from>
+      <from><interface-ref name="Int7" scoped="" ref="0x407f0168"/></from>
       <to><interface-ref name="Irq" scoped="" ref="0x40825d60"/></to>
     </wire>
     <wire loc="73:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
@@ -1522,19 +1522,19 @@
     </wire>
     <wire loc="76:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
       <from><interface-ref name="Int5" scoped="" ref="0x407f1010"/></from>
-      <to><interface-ref name="Irq" scoped="" ref="0x408298f0"/></to>
+      <to><interface-ref name="Irq" scoped="" ref="0x4082a8f0"/></to>
     </wire>
     <wire loc="71:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
       <from><interface-ref name="Int0" scoped="" ref="0x407f53b0"/></from>
-      <to><interface-ref name="Irq" scoped="" ref="0x407ed0f8"/></to>
+      <to><interface-ref name="Irq" scoped="" ref="0x407ee0f8"/></to>
     </wire>
     <wire loc="74:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
       <from><interface-ref name="Int3" scoped="" ref="0x407f3d78"/></from>
       <to><interface-ref name="Irq" scoped="" ref="0x40814538"/></to>
     </wire>
     <wire loc="80:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
-      <from><interface-ref name="IrqSignal" scoped="" ref="0x407ed8b0"/></from>
-      <to><interface-ref name="IntSig0" scoped="" ref="0x40804c80"/></to>
+      <from><interface-ref name="IrqSignal" scoped="" ref="0x407ee8b0"/></from>
+      <to><interface-ref name="IntSig0" scoped="" ref="0x407edc80"/></to>
     </wire>
     <wire loc="81:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
       <from><interface-ref name="IrqSignal" scoped="" ref="0x408189e0"/></from>
@@ -1958,26 +1958,26 @@
     </wire>
     <wire loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiWireC.nc">
       <from><interface-ref name="SpiResource" scoped="" ref="0x40856ee8"/></from>
-      <to><interface-ref name="Resource" scoped="" ref="0x4095f268"/></to>
+      <to><interface-ref name="Resource" scoped="" ref="0x408a6268"/></to>
     </wire>
     <wire loc="52:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
-      <from><interface-ref name="Resource" scoped="" ref="0x4095f268"/></from>
+      <from><interface-ref name="Resource" scoped="" ref="0x408a6268"/></from>
       <to><interface-ref name="Resource" scoped="" ref="0x408a3bf8"/></to>
     </wire>
     <wire loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiWireC.nc">
       <from><interface-ref name="SpiByte" scoped="" ref="0x40855ed0"/></from>
-      <to><interface-ref name="SpiByte" scoped="" ref="0x4095f920"/></to>
+      <to><interface-ref name="SpiByte" scoped="" ref="0x408a6920"/></to>
     </wire>
     <wire loc="55:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
-      <from><interface-ref name="SpiByte" scoped="" ref="0x4095f920"/></from>
+      <from><interface-ref name="SpiByte" scoped="" ref="0x408a6920"/></from>
       <to><interface-ref name="SpiByte" scoped="" ref="0x408be1b8"/></to>
     </wire>
     <wire loc="64:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiWireC.nc">
       <from><interface-ref name="SpiPacket" scoped="" ref="0x40867210"/></from>
-      <to><interface-ref name="SpiPacket" scoped="" ref="0x4095fc58"/></to>
+      <to><interface-ref name="SpiPacket" scoped="" ref="0x408a6c58"/></to>
     </wire>
     <wire loc="56:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
-      <from><interface-ref name="SpiPacket" scoped="" ref="0x4095fc58"/></from>
+      <from><interface-ref name="SpiPacket" scoped="" ref="0x408a6c58"/></from>
       <to><interface-ref name="SpiPacket" scoped="" ref="0x408baa68"/></to>
     </wire>
     <wire loc="67:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiWireC.nc">
@@ -2058,7 +2058,7 @@
     </wire>
     <wire loc="83:/opt/tinyos-2.1.2/tos/chips/atm128/spi/HplAtm128SpiC.nc">
       <from><interface-ref name="SpiBus" scoped="" ref="0x408b9e40"/></from>
-      <to><interface-ref name="SPI" scoped="" ref="0x408fe1c8"/></to>
+      <to><interface-ref name="SPI" scoped="" ref="0x408ff1c8"/></to>
     </wire>
     <wire loc="102:/opt/tinyos-2.1.2/tos/chips/atm128/spi/Atm128SpiC.nc">
       <from><interface-ref name="McuPowerState" scoped="" ref="0x408bf398"/></from>
@@ -2279,7 +2279,7 @@
       <to><interface-ref name="ChipSpiResource" scoped="" ref="0x4084cf00"/></to>
     </wire>
     <wire loc="124:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SFLUSHTX" scoped="" ref="0x409b7190"/></from>
+      <from><interface-ref name="SFLUSHTX" scoped="" ref="0x409b8190"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:9">
@@ -2289,7 +2289,7 @@
       </to>
     </wire>
     <wire loc="125:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SACK" scoped="" ref="0x409b74e8"/></from>
+      <from><interface-ref name="SACK" scoped="" ref="0x409b84e8"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:10">
@@ -2299,7 +2299,7 @@
       </to>
     </wire>
     <wire loc="126:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SACKPEND" scoped="" ref="0x409b78c0"/></from>
+      <from><interface-ref name="SACKPEND" scoped="" ref="0x409b88c0"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:11">
@@ -2489,7 +2489,7 @@
       </to>
     </wire>
     <wire loc="127:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SRXDEC" scoped="" ref="0x409b7c18"/></from>
+      <from><interface-ref name="SRXDEC" scoped="" ref="0x409b8c18"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:12">
@@ -2709,7 +2709,7 @@
       </to>
     </wire>
     <wire loc="158:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="TXFIFO_RAM" scoped="" ref="0x409dba00"/></from>
+      <from><interface-ref name="TXFIFO_RAM" scoped="" ref="0x409dca00"/></from>
       <to><interface-ref name="Ram" scoped="" ref="0x4085d208"/>
       <arguments>
         <value cst="I:0">
@@ -2759,7 +2759,7 @@
       </to>
     </wire>
     <wire loc="111:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="ChipSpiResource" scoped="" ref="0x409c76c8"/></from>
+      <from><interface-ref name="ChipSpiResource" scoped="" ref="0x409c86c8"/></from>
       <to><interface-ref name="ChipSpiResource" scoped="" ref="0x4084cf00"/></to>
     </wire>
     <wire loc="124:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -2793,7 +2793,7 @@
       </to>
     </wire>
     <wire loc="159:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="RXFIFO_RAM" scoped="" ref="0x409dbe38"/></from>
+      <from><interface-ref name="RXFIFO_RAM" scoped="" ref="0x409dce38"/></from>
       <to><interface-ref name="Ram" scoped="" ref="0x4085d208"/>
       <arguments>
         <value cst="I:128">
@@ -2873,7 +2873,7 @@
       </to>
     </wire>
     <wire loc="157:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SHORTADR" scoped="" ref="0x409db5c8"/></from>
+      <from><interface-ref name="SHORTADR" scoped="" ref="0x409dc5c8"/></from>
       <to><interface-ref name="Ram" scoped="" ref="0x4085d208"/>
       <arguments>
         <value cst="I:362">
@@ -2903,7 +2903,7 @@
       </to>
     </wire>
     <wire loc="115:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SNOP" scoped="" ref="0x409c7be0"/></from>
+      <from><interface-ref name="SNOP" scoped="" ref="0x409c8be0"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:0">
@@ -2993,7 +2993,7 @@
       </to>
     </wire>
     <wire loc="156:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="PANID" scoped="" ref="0x409db190"/></from>
+      <from><interface-ref name="PANID" scoped="" ref="0x409dc190"/></from>
       <to><interface-ref name="Ram" scoped="" ref="0x4085d208"/>
       <arguments>
         <value cst="I:360">
@@ -3304,10 +3304,10 @@
     </wire>
     <wire loc="89:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="STXENC" scoped="" ref="0x40a1c410"/></from>
-      <to><interface-ref name="STXENC" scoped="" ref="0x40a6b368"/></to>
+      <to><interface-ref name="STXENC" scoped="" ref="0x40a6c368"/></to>
     </wire>
     <wire loc="128:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="STXENC" scoped="" ref="0x40a6b368"/></from>
+      <from><interface-ref name="STXENC" scoped="" ref="0x40a6c368"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:13">
@@ -3364,7 +3364,7 @@
     </wire>
     <wire loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
       <from><interface-ref name="CC2420Receive" scoped="" ref="0x40a7dcd8"/></from>
-      <to><interface-ref name="CC2420Receive" scoped="" ref="0x40a76c70"/></to>
+      <to><interface-ref name="CC2420Receive" scoped="" ref="0x40a77c70"/></to>
     </wire>
     <wire loc="98:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitC.nc">
       <from><interface-ref name="CC2420Packet" scoped="" ref="0x40a072c0"/></from>
@@ -3411,7 +3411,7 @@
       </to>
     </wire>
     <wire loc="133:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="MDMCTRL0" scoped="" ref="0x40a6be50"/></from>
+      <from><interface-ref name="MDMCTRL0" scoped="" ref="0x40a6ce50"/></from>
       <to><interface-ref name="Reg" scoped="" ref="0x4085d9d0"/>
       <arguments>
         <value cst="I:17">
@@ -3571,7 +3571,7 @@
       </to>
     </wire>
     <wire loc="132:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="MAIN" scoped="" ref="0x40a6ba18"/></from>
+      <from><interface-ref name="MAIN" scoped="" ref="0x40a6ca18"/></from>
       <to><interface-ref name="Reg" scoped="" ref="0x4085d9d0"/>
       <arguments>
         <value cst="I:16">
@@ -3621,7 +3621,7 @@
       </to>
     </wire>
     <wire loc="127:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SRXDEC" scoped="" ref="0x40a6b010"/></from>
+      <from><interface-ref name="SRXDEC" scoped="" ref="0x40a6c010"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:12">
@@ -3631,7 +3631,7 @@
       </to>
     </wire>
     <wire loc="129:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
-      <from><interface-ref name="SAES" scoped="" ref="0x40a6b6c0"/></from>
+      <from><interface-ref name="SAES" scoped="" ref="0x40a6c6c0"/></from>
       <to><interface-ref name="Strobe" scoped="" ref="0x4085c1f8"/>
       <arguments>
         <value cst="I:14">
@@ -3827,7 +3827,7 @@
       <to><interface-ref name="CC2420Config" scoped="" ref="0x4060a1b0"/></to>
     </wire>
     <wire loc="81:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
-      <from><interface-ref name="SECCTRL0" scoped="" ref="0x40a8f580"/></from>
+      <from><interface-ref name="SECCTRL0" scoped="" ref="0x40a90580"/></from>
       <to><interface-ref name="SECCTRL0" scoped="" ref="0x40bd5b00"/></to>
     </wire>
     <wire loc="141:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -3841,7 +3841,7 @@
       </to>
     </wire>
     <wire loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
-      <from><interface-ref name="SECCTRL1" scoped="" ref="0x40a8faa0"/></from>
+      <from><interface-ref name="SECCTRL1" scoped="" ref="0x40a90aa0"/></from>
       <to><interface-ref name="SECCTRL1" scoped="" ref="0x40bd4010"/></to>
     </wire>
     <wire loc="142:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -3855,7 +3855,7 @@
       </to>
     </wire>
     <wire loc="83:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveC.nc">
-      <from><interface-ref name="SRXDEC" scoped="" ref="0x40a8f140"/></from>
+      <from><interface-ref name="SRXDEC" scoped="" ref="0x40a90140"/></from>
       <to><interface-ref name="SRXDEC" scoped="" ref="0x40bb18c0"/></to>
     </wire>
     <wire loc="127:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -4010,7 +4010,7 @@
     </wire>
     <wire loc="39:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncC.nc">
       <from><interface-ref name="Timer" scoped="" ref="0x41252d60"/></from>
-      <to><interface-ref name="Timer" scoped="" ref="0x406aba28"/></to>
+      <to><interface-ref name="Timer" scoped="" ref="0x4069ca28"/></to>
     </wire>
     <wire loc="40:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncC.nc">
       <from><interface-ref name="TimerCtrl" scoped="" ref="0x4124e010"/></from>
@@ -4046,7 +4046,7 @@
     </wire>
     <wire loc="52:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
       <from><interface-ref name="Timer" scoped="" ref="0x40bc16e8"/></from>
-      <to><interface-ref name="TimerMilli" scoped="" ref="0x40bbc8e8"/>
+      <to><interface-ref name="TimerMilli" scoped="" ref="0x40bbd8e8"/>
       <arguments>
         <value cst="I:0">
           <type-int cname="unsigned int" unsigned="" size="I:2" alignment="I:1"></type-int>
@@ -4055,7 +4055,7 @@
       </to>
     </wire>
     <wire loc="54:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc">
-      <from><interface-ref name="TimerMilli" scoped="" ref="0x40bbc8e8"/></from>
+      <from><interface-ref name="TimerMilli" scoped="" ref="0x40bbd8e8"/></from>
       <to><interface-ref name="TimerMilli" scoped="" ref="0x40b21c50"/></to>
     </wire>
     <wire loc="139:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -4532,11 +4532,11 @@
     </wire>
     <wire loc="64:/opt/tinyos-2.1.2/tos/system/DirectAMSenderC.nc">
       <from><interface-ref name="Packet" scoped="" ref="0x412bb3f0"/></from>
-      <to><interface-ref name="Packet" scoped="" ref="0x40574040"/></to>
+      <to><interface-ref name="Packet" scoped="" ref="0x40574190"/></to>
     </wire>
     <wire loc="65:/opt/tinyos-2.1.2/tos/system/DirectAMSenderC.nc">
       <from><interface-ref name="AMPacket" scoped="" ref="0x412bba88"/></from>
-      <to><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></to>
+      <to><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></to>
     </wire>
     <wire loc="67:/opt/tinyos-2.1.2/tos/system/AMSenderC.nc">
       <from><interface-ref name="Acks" scoped="" ref="0x40d2f010"/></from>
@@ -4544,7 +4544,7 @@
     </wire>
     <wire loc="66:/opt/tinyos-2.1.2/tos/system/DirectAMSenderC.nc">
       <from><interface-ref name="Acks" scoped="" ref="0x412ba6b0"/></from>
-      <to><interface-ref name="PacketAcknowledgements" scoped="" ref="0x405708d0"/></to>
+      <to><interface-ref name="PacketAcknowledgements" scoped="" ref="0x4057da90"/></to>
     </wire>
     <wire loc="60:/opt/tinyos-2.1.2/tos/system/DirectAMSenderC.nc">
       <from><interface-ref name="Send" scoped="" ref="0x412b5a98"/></from>
@@ -4558,7 +4558,7 @@
     </wire>
     <wire loc="61:/opt/tinyos-2.1.2/tos/system/DirectAMSenderC.nc">
       <from><interface-ref name="AMPacket" scoped="" ref="0x412b3150"/></from>
-      <to><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></to>
+      <to><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></to>
     </wire>
     <wire loc="53:/opt/tinyos-2.1.2/tos/system/AMQueueP.nc">
       <from><interface-ref name="Send" scoped="" ref="0x40cde688"/></from>
@@ -4566,15 +4566,15 @@
     </wire>
     <wire loc="54:/opt/tinyos-2.1.2/tos/system/AMQueueP.nc">
       <from><interface-ref name="AMSend" scoped="" ref="0x40cd9ca8"/></from>
-      <to><interface-ref name="AMSend" scoped="" ref="0x40446c50"/></to>
+      <to><interface-ref name="AMSend" scoped="" ref="0x40446cb8"/></to>
     </wire>
     <wire loc="55:/opt/tinyos-2.1.2/tos/system/AMQueueP.nc">
-      <from><interface-ref name="AMPacket" scoped="" ref="0x40d0a3f0"/></from>
-      <to><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></to>
+      <from><interface-ref name="AMPacket" scoped="" ref="0x40d0b3f0"/></from>
+      <to><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></to>
     </wire>
     <wire loc="56:/opt/tinyos-2.1.2/tos/system/AMQueueP.nc">
       <from><interface-ref name="Packet" scoped="" ref="0x40d09010"/></from>
-      <to><interface-ref name="Packet" scoped="" ref="0x40574040"/></to>
+      <to><interface-ref name="Packet" scoped="" ref="0x40574190"/></to>
     </wire>
     <wire loc="169:/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc">
       <from><interface-ref name="errorTask" scoped="" ref="0x40d096e8"/></from>
@@ -4598,11 +4598,11 @@
     </wire>
     <wire loc="55:/opt/tinyos-2.1.2/tos/system/AMReceiverC.nc">
       <from><interface-ref name="Packet" scoped="" ref="0x40d2dd60"/></from>
-      <to><interface-ref name="Packet" scoped="" ref="0x40574040"/></to>
+      <to><interface-ref name="Packet" scoped="" ref="0x40574190"/></to>
     </wire>
     <wire loc="56:/opt/tinyos-2.1.2/tos/system/AMReceiverC.nc">
       <from><interface-ref name="AMPacket" scoped="" ref="0x40d294d0"/></from>
-      <to><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></to>
+      <to><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></to>
     </wire>
     <wire loc="66:/opt/tinyos-2.1.2/tos/lib/printf/PrintfC.nc">
       <from><interface-ref name="Queue" scoped="" ref="0x40f5d010"/></from>
@@ -4870,15 +4870,15 @@
     </wire>
     <wire loc="51:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128Uart0C.nc">
       <from><interface-ref name="UartByte" scoped="" ref="0x40e3d5d8"/></from>
-      <to><interface-ref name="UartByte" scoped="" ref="0x40e39e28"/></to>
+      <to><interface-ref name="UartByte" scoped="" ref="0x40e3ae28"/></to>
     </wire>
     <wire loc="52:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128Uart0C.nc">
       <from><interface-ref name="UartStream" scoped="" ref="0x40e3da58"/></from>
-      <to><interface-ref name="UartStream" scoped="" ref="0x40e38290"/></to>
+      <to><interface-ref name="UartStream" scoped="" ref="0x40e39290"/></to>
     </wire>
     <wire loc="50:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128Uart0C.nc">
       <from><interface-ref name="StdControl" scoped="" ref="0x40e3d168"/></from>
-      <to><interface-ref name="StdControl" scoped="" ref="0x40e39a10"/></to>
+      <to><interface-ref name="StdControl" scoped="" ref="0x40e3aa10"/></to>
     </wire>
     <wire loc="53:/opt/tinyos-2.1.2/tos/platforms/mica/PlatformSerialC.nc">
       <from><interface-ref name="Counter" scoped="" ref="0x40e3c530"/></from>
@@ -4893,7 +4893,7 @@
       <to><interface-ref name="Counter" scoped="" ref="0x40e3c530"/></to>
     </wire>
     <wire loc="56:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128Uart0C.nc">
-      <from><interface-ref name="HplUartTxControl" scoped="" ref="0x40e38b28"/></from>
+      <from><interface-ref name="HplUartTxControl" scoped="" ref="0x40e39b28"/></from>
       <to><interface-ref name="Uart0TxControl" scoped="" ref="0x40e96a80"/></to>
     </wire>
     <wire loc="60:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartC.nc">
@@ -4918,7 +4918,7 @@
     </wire>
     <wire loc="66:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartC.nc">
       <from><interface-ref name="HplUart1" scoped="" ref="0x40e94b80"/></from>
-      <to><interface-ref name="HplUart1" scoped="" ref="0x40e8d7a0"/></to>
+      <to><interface-ref name="HplUart1" scoped="" ref="0x40e8e7a0"/></to>
     </wire>
     <wire loc="64:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartC.nc">
       <from><interface-ref name="Uart1TxControl" scoped="" ref="0x40e94178"/></from>
@@ -4926,7 +4926,7 @@
     </wire>
     <wire loc="65:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartC.nc">
       <from><interface-ref name="Uart1RxControl" scoped="" ref="0x40e94688"/></from>
-      <to><interface-ref name="Uart1RxControl" scoped="" ref="0x40e8d288"/></to>
+      <to><interface-ref name="Uart1RxControl" scoped="" ref="0x40e8e288"/></to>
     </wire>
     <wire loc="68:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartC.nc">
       <from><interface-ref name="Atm128Calibrate" scoped="" ref="0x40e8c3c8"/></from>
@@ -8855,11 +8855,11 @@
         <long>&#10; Build a 32-bit alarm and counter from the atmega128's 8-bit timer 0&#10; in asynchronous mode. Attempting to use the generic Atm128AlarmC&#10; component and the generic timer components runs into problems&#10; apparently related to letting timer 0 overflow.&#10; &#10; So, instead, this version (inspired by the 1.x code and a remark from&#10; Martin Turon) directly builds a 32-bit alarm and counter on top of timer 0&#10; and never lets timer 0 overflow.&#10;&#10; @author David Gay&#10;</long>
       </documentation>
       <parameters>
-        <typedef name="precision" ref="0x40b356a0" loc="23:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncP.nc">
+        <typedef name="precision" ref="0x40b366a0" loc="23:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncP.nc">
           <component-ref qname="Atm128AlarmAsyncP"/>
-          <type-var size="U:" alignment="U:"><typedef-ref name="precision" scoped="" ref="0x40b356a0"/></type-var>
+          <type-var size="U:" alignment="U:"><typedef-ref name="precision" scoped="" ref="0x40b366a0"/></type-var>
         </typedef>
-        <constant name="divider" ref="0x40b35860" loc="23:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncP.nc">
+        <constant name="divider" ref="0x40b36860" loc="23:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128AlarmAsyncP.nc">
           <component-ref qname="Atm128AlarmAsyncP"/>
           <type-int cname="int" size="I:2" alignment="I:1"></type-int>
         </constant>
@@ -10559,15 +10559,15 @@
         <function-ref name="clr" scoped="" ref="0x40fcca20"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="IO" ref="0x40fcac08" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
+    <interface provided="1" name="IO" ref="0x40fcbc08" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
       <component-ref qname="HplAtm128GeneralIOC.PortB.Bit4"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x40fcac08"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x40fcbc08"/></type-interface>
       <instance>
         <interfacedef-ref qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" scoped="" ref="0x40fcade0"/>
-        <function-ref name="isInput" scoped="" ref="0x40fcaec0"/>
+        <function-ref name="makeInput" scoped="" ref="0x40fcbde0"/>
+        <function-ref name="isInput" scoped="" ref="0x40fcbec0"/>
         <function-ref name="toggle" scoped="" ref="0x40fc9010"/>
         <function-ref name="isOutput" scoped="" ref="0x40fc90f0"/>
         <function-ref name="get" scoped="" ref="0x40fc91d0"/>
@@ -11076,30 +11076,30 @@
         <interfacedef-ref qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" scoped="" ref="0x41041010"/>
-        <function-ref name="isInput" scoped="" ref="0x410410f0"/>
-        <function-ref name="toggle" scoped="" ref="0x410411d0"/>
-        <function-ref name="isOutput" scoped="" ref="0x410412b0"/>
-        <function-ref name="get" scoped="" ref="0x41041390"/>
-        <function-ref name="makeOutput" scoped="" ref="0x41041470"/>
-        <function-ref name="set" scoped="" ref="0x41041550"/>
-        <function-ref name="clr" scoped="" ref="0x41041630"/>
+        <function-ref name="makeInput" scoped="" ref="0x41042010"/>
+        <function-ref name="isInput" scoped="" ref="0x410420f0"/>
+        <function-ref name="toggle" scoped="" ref="0x410421d0"/>
+        <function-ref name="isOutput" scoped="" ref="0x410422b0"/>
+        <function-ref name="get" scoped="" ref="0x41042390"/>
+        <function-ref name="makeOutput" scoped="" ref="0x41042470"/>
+        <function-ref name="set" scoped="" ref="0x41042550"/>
+        <function-ref name="clr" scoped="" ref="0x41042630"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="IO" ref="0x410407f8" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
+    <interface provided="1" name="IO" ref="0x410417f8" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
       <component-ref qname="HplAtm128GeneralIOC.PortD.Bit3"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x410407f8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x410417f8"/></type-interface>
       <instance>
         <interfacedef-ref qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" scoped="" ref="0x410409d0"/>
-        <function-ref name="isInput" scoped="" ref="0x41040ab0"/>
-        <function-ref name="toggle" scoped="" ref="0x41040b90"/>
-        <function-ref name="isOutput" scoped="" ref="0x41040c70"/>
-        <function-ref name="get" scoped="" ref="0x41040d50"/>
-        <function-ref name="makeOutput" scoped="" ref="0x41040e30"/>
-        <function-ref name="set" scoped="" ref="0x41040f10"/>
+        <function-ref name="makeInput" scoped="" ref="0x410419d0"/>
+        <function-ref name="isInput" scoped="" ref="0x41041ab0"/>
+        <function-ref name="toggle" scoped="" ref="0x41041b90"/>
+        <function-ref name="isOutput" scoped="" ref="0x41041c70"/>
+        <function-ref name="get" scoped="" ref="0x41041d50"/>
+        <function-ref name="makeOutput" scoped="" ref="0x41041e30"/>
+        <function-ref name="set" scoped="" ref="0x41041f10"/>
         <function-ref name="clr" scoped="" ref="0x4103f010"/>
       </interface-functions>
     </interface>
@@ -11596,9 +11596,9 @@
         <function-ref name="clr" scoped="" ref="0x410c0c10"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="IO" ref="0x410bede0" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
+    <interface provided="1" name="IO" ref="0x410bfde0" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128GeneralIOPinP.nc">
       <component-ref qname="HplAtm128GeneralIOC.PortF.Bit1"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x410bede0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IO" scoped="" ref="0x410bfde0"/></type-interface>
       <instance>
         <interfacedef-ref qname="GeneralIO"/>
       </instance>
@@ -12185,22 +12185,22 @@
         <function-ref name="localGroup" scoped="" ref="0x4054a710"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SplitControl" ref="0x40446378" loc="55:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="SplitControl" ref="0x404463e0" loc="55:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SplitControl" scoped="" ref="0x40446378"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SplitControl" scoped="" ref="0x404463e0"/></type-interface>
       <instance>
         <interfacedef-ref qname="SplitControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="startDone" scoped="" ref="0x40446550"/>
-        <function-ref name="stopDone" scoped="" ref="0x40446630"/>
-        <function-ref name="start" scoped="" ref="0x40446710"/>
-        <function-ref name="stop" scoped="" ref="0x404467f0"/>
+        <function-ref name="startDone" scoped="" ref="0x404465b8"/>
+        <function-ref name="stopDone" scoped="" ref="0x40446698"/>
+        <function-ref name="start" scoped="" ref="0x40446778"/>
+        <function-ref name="stop" scoped="" ref="0x40446858"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="AMSend" ref="0x40446c50" loc="57:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="AMSend" ref="0x40446cb8" loc="57:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMSend" scoped="" ref="0x40446c50"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMSend" scoped="" ref="0x40446cb8"/></type-interface>
       <instance>
         <interfacedef-ref qname="AMSend"/>
       </instance>
@@ -12210,16 +12210,16 @@
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x40446e28"/>
-        <function-ref name="getPayload" scoped="" ref="0x40446f08"/>
-        <function-ref name="maxPayloadLength" scoped="" ref="0x40575010"/>
-        <function-ref name="cancel" scoped="" ref="0x405750f0"/>
-        <function-ref name="sendDone" scoped="" ref="0x405751d0"/>
+        <function-ref name="send" scoped="" ref="0x40446e90"/>
+        <function-ref name="getPayload" scoped="" ref="0x40575010"/>
+        <function-ref name="maxPayloadLength" scoped="" ref="0x405750f0"/>
+        <function-ref name="cancel" scoped="" ref="0x405751d0"/>
+        <function-ref name="sendDone" scoped="" ref="0x405752b0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Snoop" ref="0x40575cd0" loc="59:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="Snoop" ref="0x40575db0" loc="59:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Snoop" scoped="" ref="0x40575cd0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Snoop" scoped="" ref="0x40575db0"/></type-interface>
       <instance>
         <interfacedef-ref qname="Receive"/>
       </instance>
@@ -12229,26 +12229,26 @@
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="receive" scoped="" ref="0x40575ea8"/>
+        <function-ref name="receive" scoped="" ref="0x40574010"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Packet" ref="0x40574040" loc="61:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="Packet" ref="0x40574190" loc="61:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Packet" scoped="" ref="0x40574040"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Packet" scoped="" ref="0x40574190"/></type-interface>
       <instance>
         <interfacedef-ref qname="Packet"/>
       </instance>
       <interface-functions>
-        <function-ref name="clear" scoped="" ref="0x40574218"/>
-        <function-ref name="payloadLength" scoped="" ref="0x405742f8"/>
-        <function-ref name="getPayload" scoped="" ref="0x405743d8"/>
-        <function-ref name="maxPayloadLength" scoped="" ref="0x405744b8"/>
-        <function-ref name="setPayloadLength" scoped="" ref="0x40574598"/>
+        <function-ref name="clear" scoped="" ref="0x40574368"/>
+        <function-ref name="payloadLength" scoped="" ref="0x40574448"/>
+        <function-ref name="getPayload" scoped="" ref="0x40574528"/>
+        <function-ref name="maxPayloadLength" scoped="" ref="0x40574608"/>
+        <function-ref name="setPayloadLength" scoped="" ref="0x405746e8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="PacketTimeStamp32khz" ref="0x405722a8" loc="64:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="PacketTimeStamp32khz" ref="0x40585408" loc="64:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x405722a8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketTimeStamp32khz" scoped="" ref="0x40585408"/></type-interface>
       <instance>
         <interfacedef-ref qname="PacketTimeStamp"/>
         <arguments>
@@ -12261,28 +12261,28 @@
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="timestamp" scoped="" ref="0x40572da8"/>
-        <function-ref name="clear" scoped="" ref="0x40571170"/>
-        <function-ref name="isValid" scoped="" ref="0x405729f8"/>
-        <function-ref name="set" scoped="" ref="0x40571520"/>
+        <function-ref name="timestamp" scoped="" ref="0x40585f08"/>
+        <function-ref name="clear" scoped="" ref="0x405712d0"/>
+        <function-ref name="isValid" scoped="" ref="0x40585b58"/>
+        <function-ref name="set" scoped="" ref="0x40571680"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="LowPowerListening" ref="0x4057fb30" loc="66:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="LowPowerListening" ref="0x4057fba8" loc="66:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="LowPowerListening" scoped="" ref="0x4057fb30"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="LowPowerListening" scoped="" ref="0x4057fba8"/></type-interface>
       <instance>
         <interfacedef-ref qname="LowPowerListening"/>
       </instance>
       <interface-functions>
-        <function-ref name="setRemoteWakeupInterval" scoped="" ref="0x4057fd08"/>
-        <function-ref name="getRemoteWakeupInterval" scoped="" ref="0x4057fde8"/>
-        <function-ref name="getLocalWakeupInterval" scoped="" ref="0x4057fec8"/>
-        <function-ref name="setLocalWakeupInterval" scoped="" ref="0x40583010"/>
+        <function-ref name="setRemoteWakeupInterval" scoped="" ref="0x4057fd80"/>
+        <function-ref name="getRemoteWakeupInterval" scoped="" ref="0x4057fe60"/>
+        <function-ref name="getLocalWakeupInterval" scoped="" ref="0x40583010"/>
+        <function-ref name="setLocalWakeupInterval" scoped="" ref="0x405830f0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Receive" ref="0x40575638" loc="58:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="Receive" ref="0x40575718" loc="58:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Receive" scoped="" ref="0x40575638"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Receive" scoped="" ref="0x40575718"/></type-interface>
       <instance>
         <interfacedef-ref qname="Receive"/>
       </instance>
@@ -12292,44 +12292,44 @@
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="receive" scoped="" ref="0x40575810"/>
+        <function-ref name="receive" scoped="" ref="0x405758f0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="PacketAcknowledgements" ref="0x405708d0" loc="63:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="PacketAcknowledgements" ref="0x4057da90" loc="63:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketAcknowledgements" scoped="" ref="0x405708d0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketAcknowledgements" scoped="" ref="0x4057da90"/></type-interface>
       <instance>
         <interfacedef-ref qname="PacketAcknowledgements"/>
       </instance>
       <interface-functions>
-        <function-ref name="requestAck" scoped="" ref="0x40570aa8"/>
-        <function-ref name="noAck" scoped="" ref="0x40570b88"/>
-        <function-ref name="wasAcked" scoped="" ref="0x40570c68"/>
+        <function-ref name="requestAck" scoped="" ref="0x4057dc68"/>
+        <function-ref name="noAck" scoped="" ref="0x4057dd48"/>
+        <function-ref name="wasAcked" scoped="" ref="0x4057de28"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="AMPacket" ref="0x40574730" loc="62:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="AMPacket" ref="0x40574880" loc="62:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x40574730"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x40574880"/></type-interface>
       <instance>
         <interfacedef-ref qname="AMPacket"/>
       </instance>
       <interface-functions>
-        <function-ref name="group" scoped="" ref="0x40574908"/>
-        <function-ref name="source" scoped="" ref="0x405749e8"/>
-        <function-ref name="address" scoped="" ref="0x40574ac8"/>
-        <function-ref name="destination" scoped="" ref="0x40574ba8"/>
-        <function-ref name="setSource" scoped="" ref="0x40574c88"/>
-        <function-ref name="setDestination" scoped="" ref="0x40574d68"/>
-        <function-ref name="type" scoped="" ref="0x40574e48"/>
-        <function-ref name="setType" scoped="" ref="0x40574f28"/>
-        <function-ref name="isForMe" scoped="" ref="0x40573018"/>
-        <function-ref name="setGroup" scoped="" ref="0x405730f8"/>
-        <function-ref name="localGroup" scoped="" ref="0x405731d8"/>
+        <function-ref name="group" scoped="" ref="0x40574a58"/>
+        <function-ref name="source" scoped="" ref="0x40574b38"/>
+        <function-ref name="address" scoped="" ref="0x40574c18"/>
+        <function-ref name="destination" scoped="" ref="0x40574cf8"/>
+        <function-ref name="setSource" scoped="" ref="0x40574dd8"/>
+        <function-ref name="setDestination" scoped="" ref="0x40574eb8"/>
+        <function-ref name="type" scoped="" ref="0x40573010"/>
+        <function-ref name="setType" scoped="" ref="0x405730f0"/>
+        <function-ref name="isForMe" scoped="" ref="0x405731d0"/>
+        <function-ref name="setGroup" scoped="" ref="0x405732b0"/>
+        <function-ref name="localGroup" scoped="" ref="0x40573390"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="PacketTimeStampMilli" ref="0x40571c58" loc="65:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
+    <interface provided="1" name="PacketTimeStampMilli" ref="0x40571db8" loc="65:/opt/tinyos-2.1.2/tos/platforms/micaz/ActiveMessageC.nc">
       <component-ref qname="ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40571c58"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketTimeStampMilli" scoped="" ref="0x40571db8"/></type-interface>
       <instance>
         <interfacedef-ref qname="PacketTimeStamp"/>
         <arguments>
@@ -12342,10 +12342,10 @@
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="timestamp" scoped="" ref="0x405787a0"/>
-        <function-ref name="clear" scoped="" ref="0x40578b50"/>
-        <function-ref name="isValid" scoped="" ref="0x405783f0"/>
-        <function-ref name="set" scoped="" ref="0x40578f00"/>
+        <function-ref name="timestamp" scoped="" ref="0x4057b8c8"/>
+        <function-ref name="clear" scoped="" ref="0x4057bc78"/>
+        <function-ref name="isValid" scoped="" ref="0x4057b518"/>
+        <function-ref name="set" scoped="" ref="0x40584048"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SplitControl" ref="0x40588788" loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -12429,9 +12429,9 @@
         <function-ref name="sendDone" scoped="" ref="0x40587658"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Snoop" ref="0x40595178" loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
+    <interface provided="1" name="Snoop" ref="0x40586178" loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <component-ref qname="CC2420ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Snoop" scoped="" ref="0x40595178"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Snoop" scoped="" ref="0x40586178"/></type-interface>
       <instance>
         <interfacedef-ref qname="Receive"/>
       </instance>
@@ -12441,7 +12441,7 @@
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="receive" scoped="" ref="0x40595350"/>
+        <function-ref name="receive" scoped="" ref="0x40586350"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="CC2420Packet" ref="0x4058e9a0" loc="61:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
@@ -12513,23 +12513,23 @@
         <function-ref name="wasDelivered" scoped="" ref="0x405a07b0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="AMPacket" ref="0x405954e8" loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
+    <interface provided="1" name="AMPacket" ref="0x405864e8" loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420ActiveMessageC.nc">
       <component-ref qname="CC2420ActiveMessageC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x405954e8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x405864e8"/></type-interface>
       <instance>
         <interfacedef-ref qname="AMPacket"/>
       </instance>
       <interface-functions>
-        <function-ref name="group" scoped="" ref="0x405956c0"/>
-        <function-ref name="source" scoped="" ref="0x405957a0"/>
-        <function-ref name="address" scoped="" ref="0x40595880"/>
-        <function-ref name="destination" scoped="" ref="0x40595960"/>
-        <function-ref name="setSource" scoped="" ref="0x40595a40"/>
-        <function-ref name="setDestination" scoped="" ref="0x40595b20"/>
-        <function-ref name="type" scoped="" ref="0x40595c00"/>
-        <function-ref name="setType" scoped="" ref="0x40595ce0"/>
-        <function-ref name="isForMe" scoped="" ref="0x40595dc0"/>
-        <function-ref name="setGroup" scoped="" ref="0x40595ea0"/>
+        <function-ref name="group" scoped="" ref="0x405866c0"/>
+        <function-ref name="source" scoped="" ref="0x405867a0"/>
+        <function-ref name="address" scoped="" ref="0x40586880"/>
+        <function-ref name="destination" scoped="" ref="0x40586960"/>
+        <function-ref name="setSource" scoped="" ref="0x40586a40"/>
+        <function-ref name="setDestination" scoped="" ref="0x40586b20"/>
+        <function-ref name="type" scoped="" ref="0x40586c00"/>
+        <function-ref name="setType" scoped="" ref="0x40586ce0"/>
+        <function-ref name="isForMe" scoped="" ref="0x40586dc0"/>
+        <function-ref name="setGroup" scoped="" ref="0x40586ea0"/>
         <function-ref name="localGroup" scoped="" ref="0x40594010"/>
       </interface-functions>
     </interface>
@@ -12543,17 +12543,17 @@
         <function-ref name="highChannelQuality" scoped="" ref="0x4059b810"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SplitControl" ref="0x405ad010" loc="43:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="SplitControl" ref="0x4059e010" loc="43:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SplitControl" scoped="" ref="0x405ad010"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SplitControl" scoped="" ref="0x4059e010"/></type-interface>
       <instance>
         <interfacedef-ref qname="SplitControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="startDone" scoped="" ref="0x405ad1e8"/>
-        <function-ref name="stopDone" scoped="" ref="0x405ad2c8"/>
-        <function-ref name="start" scoped="" ref="0x405ad3a8"/>
-        <function-ref name="stop" scoped="" ref="0x405ad488"/>
+        <function-ref name="startDone" scoped="" ref="0x4059e1e8"/>
+        <function-ref name="stopDone" scoped="" ref="0x4059e2c8"/>
+        <function-ref name="start" scoped="" ref="0x4059e3a8"/>
+        <function-ref name="stop" scoped="" ref="0x4059e488"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="LinkPacketMetadata" ref="0x405a8cf0" loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
@@ -12566,23 +12566,23 @@
         <function-ref name="highChannelQuality" scoped="" ref="0x405a8ec8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="PacketLink" ref="0x405b1730" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="PacketLink" ref="0x405b2730" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketLink" scoped="" ref="0x405b1730"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="PacketLink" scoped="" ref="0x405b2730"/></type-interface>
       <instance>
         <interfacedef-ref qname="PacketLink"/>
       </instance>
       <interface-functions>
-        <function-ref name="getRetryDelay" scoped="" ref="0x405b1908"/>
-        <function-ref name="setRetries" scoped="" ref="0x405b19e8"/>
-        <function-ref name="getRetries" scoped="" ref="0x405b1ac8"/>
-        <function-ref name="setRetryDelay" scoped="" ref="0x405b1ba8"/>
-        <function-ref name="wasDelivered" scoped="" ref="0x405b1c88"/>
+        <function-ref name="getRetryDelay" scoped="" ref="0x405b2908"/>
+        <function-ref name="setRetries" scoped="" ref="0x405b29e8"/>
+        <function-ref name="getRetries" scoped="" ref="0x405b2ac8"/>
+        <function-ref name="setRetryDelay" scoped="" ref="0x405b2ba8"/>
+        <function-ref name="wasDelivered" scoped="" ref="0x405b2c88"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="CC2420Packet" ref="0x405abee8" loc="53:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="CC2420Packet" ref="0x405acee8" loc="53:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Packet" scoped="" ref="0x405abee8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Packet" scoped="" ref="0x405acee8"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Packet"/>
       </instance>
@@ -12595,31 +12595,31 @@
         <function-ref name="getLqi" scoped="" ref="0x405a8540"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="ActiveSend" ref="0x405ab3c8" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="ActiveSend" ref="0x405ac3c8" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="ActiveSend" scoped="" ref="0x405ab3c8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="ActiveSend" scoped="" ref="0x405ac3c8"/></type-interface>
       <instance>
         <interfacedef-ref qname="Send"/>
       </instance>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x405ab5a0"/>
-        <function-ref name="getPayload" scoped="" ref="0x405ab680"/>
-        <function-ref name="maxPayloadLength" scoped="" ref="0x405ab760"/>
-        <function-ref name="cancel" scoped="" ref="0x405ab840"/>
-        <function-ref name="sendDone" scoped="" ref="0x405ab920"/>
+        <function-ref name="send" scoped="" ref="0x405ac5a0"/>
+        <function-ref name="getPayload" scoped="" ref="0x405ac680"/>
+        <function-ref name="maxPayloadLength" scoped="" ref="0x405ac760"/>
+        <function-ref name="cancel" scoped="" ref="0x405ac840"/>
+        <function-ref name="sendDone" scoped="" ref="0x405ac920"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="LowPowerListening" ref="0x405b1110" loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="LowPowerListening" ref="0x405b2110" loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="LowPowerListening" scoped="" ref="0x405b1110"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="LowPowerListening" scoped="" ref="0x405b2110"/></type-interface>
       <instance>
         <interfacedef-ref qname="LowPowerListening"/>
       </instance>
       <interface-functions>
-        <function-ref name="setRemoteWakeupInterval" scoped="" ref="0x405b12e8"/>
-        <function-ref name="getRemoteWakeupInterval" scoped="" ref="0x405b13c8"/>
-        <function-ref name="getLocalWakeupInterval" scoped="" ref="0x405b14a8"/>
-        <function-ref name="setLocalWakeupInterval" scoped="" ref="0x405b1588"/>
+        <function-ref name="setRemoteWakeupInterval" scoped="" ref="0x405b22e8"/>
+        <function-ref name="getRemoteWakeupInterval" scoped="" ref="0x405b23c8"/>
+        <function-ref name="getLocalWakeupInterval" scoped="" ref="0x405b24a8"/>
+        <function-ref name="setLocalWakeupInterval" scoped="" ref="0x405b2588"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="BareReceive" ref="0x405b3860" loc="47:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
@@ -12659,8 +12659,8 @@
         <function-ref name="release" scoped="" ref="0x405a9d58"/>
         <function-ref name="immediateRequest" scoped="" ref="0x405a9e38"/>
         <function-ref name="request" scoped="" ref="0x405a9f18"/>
-        <function-ref name="granted" scoped="" ref="0x405ac010"/>
-        <function-ref name="isOwner" scoped="" ref="0x405ac0f0"/>
+        <function-ref name="granted" scoped="" ref="0x405ad010"/>
+        <function-ref name="isOwner" scoped="" ref="0x405ad0f0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="BareSend" ref="0x405b30f0" loc="46:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
@@ -12686,19 +12686,19 @@
       <interface-functions>
         <function-ref name="clear" scoped="" ref="0x405b3e18"/>
         <function-ref name="payloadLength" scoped="" ref="0x405b3ef8"/>
-        <function-ref name="getPayload" scoped="" ref="0x405ab010"/>
-        <function-ref name="maxPayloadLength" scoped="" ref="0x405ab0f0"/>
-        <function-ref name="setPayloadLength" scoped="" ref="0x405ab1d0"/>
+        <function-ref name="getPayload" scoped="" ref="0x405ac010"/>
+        <function-ref name="maxPayloadLength" scoped="" ref="0x405ac0f0"/>
+        <function-ref name="setPayloadLength" scoped="" ref="0x405ac1d0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="ActiveReceive" ref="0x405abb50" loc="51:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
+    <interface provided="1" name="ActiveReceive" ref="0x405acb50" loc="51:/opt/tinyos-2.1.2/tos/chips/cc2420/CC2420RadioC.nc">
       <component-ref qname="CC2420RadioC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="ActiveReceive" scoped="" ref="0x405abb50"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="ActiveReceive" scoped="" ref="0x405acb50"/></type-interface>
       <instance>
         <interfacedef-ref qname="Receive"/>
       </instance>
       <interface-functions>
-        <function-ref name="receive" scoped="" ref="0x405abd28"/>
+        <function-ref name="receive" scoped="" ref="0x405acd28"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SplitControl" ref="0x405b0490" loc="44:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaC.nc">
@@ -12796,19 +12796,19 @@
         <function-ref name="requestCongestionBackoff" scoped="" ref="0x405b6b50"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="CC2420Packet" ref="0x405d4f10" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
+    <interface provided="0" name="CC2420Packet" ref="0x405d5f10" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
       <component-ref qname="CC2420CsmaP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Packet" scoped="" ref="0x405d4f10"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Packet" scoped="" ref="0x405d5f10"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Packet"/>
       </instance>
       <interface-functions>
-        <function-ref name="setPower" scoped="" ref="0x405cc108"/>
-        <function-ref name="setNetwork" scoped="" ref="0x405cc1e8"/>
-        <function-ref name="getRssi" scoped="" ref="0x405cc2c8"/>
-        <function-ref name="getNetwork" scoped="" ref="0x405cc3a8"/>
-        <function-ref name="getPower" scoped="" ref="0x405cc488"/>
-        <function-ref name="getLqi" scoped="" ref="0x405cc568"/>
+        <function-ref name="setPower" scoped="" ref="0x405ca108"/>
+        <function-ref name="setNetwork" scoped="" ref="0x405ca1e8"/>
+        <function-ref name="getRssi" scoped="" ref="0x405ca2c8"/>
+        <function-ref name="getNetwork" scoped="" ref="0x405ca3a8"/>
+        <function-ref name="getPower" scoped="" ref="0x405ca488"/>
+        <function-ref name="getLqi" scoped="" ref="0x405ca568"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="CC2420Transmit" ref="0x405becc0" loc="46:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
@@ -12850,15 +12850,15 @@
         <function-ref name="rand32" scoped="" ref="0x405cd018"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="SubControl" ref="0x405c1740" loc="45:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
+    <interface provided="0" name="SubControl" ref="0x405c2740" loc="45:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
       <component-ref qname="CC2420CsmaP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SubControl" scoped="" ref="0x405c1740"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SubControl" scoped="" ref="0x405c2740"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x405c1918"/>
-        <function-ref name="stop" scoped="" ref="0x405c19f8"/>
+        <function-ref name="start" scoped="" ref="0x405c2918"/>
+        <function-ref name="stop" scoped="" ref="0x405c29f8"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="CC2420PacketBody" ref="0x405d1690" loc="51:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
@@ -12890,24 +12890,24 @@
         <function-ref name="startVRegDone" scoped="" ref="0x405b7550"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="Leds" ref="0x405d4298" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
+    <interface provided="0" name="Leds" ref="0x405d5298" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
       <component-ref qname="CC2420CsmaP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Leds" scoped="" ref="0x405d4298"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Leds" scoped="" ref="0x405d5298"/></type-interface>
       <instance>
         <interfacedef-ref qname="Leds"/>
       </instance>
       <interface-functions>
-        <function-ref name="led0Off" scoped="" ref="0x405d4470"/>
-        <function-ref name="led0Toggle" scoped="" ref="0x405d4550"/>
-        <function-ref name="led1On" scoped="" ref="0x405d4630"/>
-        <function-ref name="led1Toggle" scoped="" ref="0x405d4710"/>
-        <function-ref name="led2Toggle" scoped="" ref="0x405d47f0"/>
-        <function-ref name="get" scoped="" ref="0x405d48d0"/>
-        <function-ref name="led1Off" scoped="" ref="0x405d49b0"/>
-        <function-ref name="led2Off" scoped="" ref="0x405d4d30"/>
-        <function-ref name="set" scoped="" ref="0x405d4a90"/>
-        <function-ref name="led0On" scoped="" ref="0x405d4b70"/>
-        <function-ref name="led2On" scoped="" ref="0x405d4c50"/>
+        <function-ref name="led0Off" scoped="" ref="0x405d5470"/>
+        <function-ref name="led0Toggle" scoped="" ref="0x405d5550"/>
+        <function-ref name="led1On" scoped="" ref="0x405d5630"/>
+        <function-ref name="led1Toggle" scoped="" ref="0x405d5710"/>
+        <function-ref name="led2Toggle" scoped="" ref="0x405d57f0"/>
+        <function-ref name="get" scoped="" ref="0x405d58d0"/>
+        <function-ref name="led1Off" scoped="" ref="0x405d59b0"/>
+        <function-ref name="led2Off" scoped="" ref="0x405d5d30"/>
+        <function-ref name="set" scoped="" ref="0x405d5a90"/>
+        <function-ref name="led0On" scoped="" ref="0x405d5b70"/>
+        <function-ref name="led2On" scoped="" ref="0x405d5c50"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="Resource" ref="0x405b9ac0" loc="43:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
@@ -12931,12 +12931,12 @@
         <interfacedef-ref qname="State"/>
       </instance>
       <interface-functions>
-        <function-ref name="getState" scoped="" ref="0x405ca188"/>
-        <function-ref name="toIdle" scoped="" ref="0x405ca268"/>
-        <function-ref name="isState" scoped="" ref="0x405ca348"/>
-        <function-ref name="isIdle" scoped="" ref="0x405ca428"/>
-        <function-ref name="requestState" scoped="" ref="0x405ca508"/>
-        <function-ref name="forceState" scoped="" ref="0x405ca5e8"/>
+        <function-ref name="getState" scoped="" ref="0x405d4188"/>
+        <function-ref name="toIdle" scoped="" ref="0x405d4268"/>
+        <function-ref name="isState" scoped="" ref="0x405d4348"/>
+        <function-ref name="isIdle" scoped="" ref="0x405d4428"/>
+        <function-ref name="requestState" scoped="" ref="0x405d4508"/>
+        <function-ref name="forceState" scoped="" ref="0x405d45e8"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="sendDone_task" ref="0x405dc080" loc="76:/opt/tinyos-2.1.2/tos/chips/cc2420/csma/CC2420CsmaP.nc">
@@ -13112,15 +13112,15 @@
         <function-ref name="stop" scoped="" ref="0x406132b0"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="MDMCTRL0" ref="0x40626a98" loc="64:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
+    <interface provided="0" name="MDMCTRL0" ref="0x40619a98" loc="64:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
       <component-ref qname="CC2420ControlP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="MDMCTRL0" scoped="" ref="0x40626a98"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="MDMCTRL0" scoped="" ref="0x40619a98"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40626c70"/>
-        <function-ref name="write" scoped="" ref="0x40626d50"/>
+        <function-ref name="read" scoped="" ref="0x40619c70"/>
+        <function-ref name="write" scoped="" ref="0x40619d50"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="RSTN" ref="0x4061fce8" loc="54:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
@@ -13189,15 +13189,15 @@
         <function-ref name="write" scoped="" ref="0x406231f0"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="IOCFG0" ref="0x40626070" loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
+    <interface provided="0" name="IOCFG0" ref="0x40619070" loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
       <component-ref qname="CC2420ControlP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IOCFG0" scoped="" ref="0x40626070"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IOCFG0" scoped="" ref="0x40619070"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40626248"/>
-        <function-ref name="write" scoped="" ref="0x40626328"/>
+        <function-ref name="read" scoped="" ref="0x40619248"/>
+        <function-ref name="write" scoped="" ref="0x40619328"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="ActiveMessageAddress" ref="0x40629860" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
@@ -13333,15 +13333,15 @@
         <function-ref name="startVRegDone" scoped="" ref="0x406169d8"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="IOCFG1" ref="0x40626578" loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
+    <interface provided="0" name="IOCFG1" ref="0x40619578" loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
       <component-ref qname="CC2420ControlP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IOCFG1" scoped="" ref="0x40626578"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IOCFG1" scoped="" ref="0x40619578"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40626750"/>
-        <function-ref name="write" scoped="" ref="0x40626830"/>
+        <function-ref name="read" scoped="" ref="0x40619750"/>
+        <function-ref name="write" scoped="" ref="0x40619830"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="FSCTRL" ref="0x40625b20" loc="61:/opt/tinyos-2.1.2/tos/chips/cc2420/control/CC2420ControlP.nc">
@@ -13604,9 +13604,9 @@
         <function-ref name="setCtrlClock" scoped="" ref="0x40694710"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Capture" ref="0x4069eb10" loc="47:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer1C.nc">
+    <interface provided="1" name="Capture" ref="0x4069fb10" loc="47:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer1C.nc">
       <component-ref qname="HplAtm128Timer1C"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Capture" scoped="" ref="0x4069eb10"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Capture" scoped="" ref="0x4069fb10"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Capture"/>
         <arguments>
@@ -13731,9 +13731,9 @@
         <function-ref name="stop" scoped="" ref="0x406a5e80"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Timer" ref="0x406aba28" loc="47:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer0AsyncC.nc">
+    <interface provided="1" name="Timer" ref="0x4069ca28" loc="47:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer0AsyncC.nc">
       <component-ref qname="HplAtm128Timer0AsyncC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x406aba28"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x4069ca28"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Timer"/>
         <arguments>
@@ -13818,9 +13818,9 @@
         <function-ref name="stop" scoped="" ref="0x406bdac0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Timer" ref="0x406b2b08" loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer0AsyncP.nc">
+    <interface provided="1" name="Timer" ref="0x406b3b08" loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Timer0AsyncP.nc">
       <component-ref qname="HplAtm128Timer0AsyncP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x406b2b08"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x406b3b08"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Timer"/>
         <arguments>
@@ -14166,15 +14166,15 @@
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" scoped="" ref="0x40781010"/>
-        <function-ref name="clearOverflow" scoped="" ref="0x40781500"/>
-        <function-ref name="isOverflowPending" scoped="" ref="0x40781288"/>
-        <function-ref name="overflow" scoped="" ref="0x40781778"/>
+        <function-ref name="get" scoped="" ref="0x4078b010"/>
+        <function-ref name="clearOverflow" scoped="" ref="0x4078b500"/>
+        <function-ref name="isOverflowPending" scoped="" ref="0x4078b288"/>
+        <function-ref name="overflow" scoped="" ref="0x4078b778"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="Timer" ref="0x40781a58" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128CounterC.nc">
+    <interface provided="0" name="Timer" ref="0x4078ba58" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/timer/Atm128CounterC.nc">
       <component-ref qname="CounterOne16C.NCounter"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x40781a58"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Timer" scoped="" ref="0x4078ba58"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Timer"/>
         <arguments>
@@ -14218,9 +14218,9 @@
         <function-ref name="overflow" scoped="" ref="0x4079b010"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Counter" ref="0x40778e60" loc="62:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc">
+    <interface provided="1" name="Counter" ref="0x40795e60" loc="62:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc">
       <component-ref qname="Counter32khz32C.Transform32"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Counter" scoped="" ref="0x40778e60"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Counter" scoped="" ref="0x40795e60"/></type-interface>
       <instance>
         <interfacedef-ref qname="Counter"/>
         <arguments>
@@ -14233,10 +14233,10 @@
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" scoped="" ref="0x407945e0"/>
-        <function-ref name="clearOverflow" scoped="" ref="0x40794ad0"/>
-        <function-ref name="isOverflowPending" scoped="" ref="0x40794858"/>
-        <function-ref name="overflow" scoped="" ref="0x40794d48"/>
+        <function-ref name="get" scoped="" ref="0x4079d5e0"/>
+        <function-ref name="clearOverflow" scoped="" ref="0x4079dad0"/>
+        <function-ref name="isOverflowPending" scoped="" ref="0x4079d858"/>
+        <function-ref name="overflow" scoped="" ref="0x4079dd48"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Alarm" ref="0x4112cb48" loc="61:/opt/tinyos-2.1.2/tos/lib/timer/TransformAlarmC.nc">
@@ -14585,19 +14585,19 @@
         <function-ref name="getValue" scoped="" ref="0x407f2cf0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Int7" ref="0x407ef168" loc="52:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
+    <interface provided="1" name="Int7" ref="0x407f0168" loc="52:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
       <component-ref qname="HplAtm128InterruptC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Int7" scoped="" ref="0x407ef168"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Int7" scoped="" ref="0x407f0168"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Interrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="clear" scoped="" ref="0x407ef340"/>
-        <function-ref name="fired" scoped="" ref="0x407ef420"/>
-        <function-ref name="disable" scoped="" ref="0x407ef500"/>
-        <function-ref name="edge" scoped="" ref="0x407ef5e0"/>
-        <function-ref name="enable" scoped="" ref="0x407ef6c0"/>
-        <function-ref name="getValue" scoped="" ref="0x407ef7a0"/>
+        <function-ref name="clear" scoped="" ref="0x407f0340"/>
+        <function-ref name="fired" scoped="" ref="0x407f0420"/>
+        <function-ref name="disable" scoped="" ref="0x407f0500"/>
+        <function-ref name="edge" scoped="" ref="0x407f05e0"/>
+        <function-ref name="enable" scoped="" ref="0x407f06c0"/>
+        <function-ref name="getValue" scoped="" ref="0x407f07a0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Int2" ref="0x407f34f8" loc="47:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptC.nc">
@@ -14720,14 +14720,14 @@
         <function-ref name="fired" scoped="" ref="0x40802568"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="IntSig0" ref="0x40804c80" loc="43:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSigP.nc">
+    <interface provided="1" name="IntSig0" ref="0x407edc80" loc="43:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSigP.nc">
       <component-ref qname="HplAtm128InterruptSigP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IntSig0" scoped="" ref="0x40804c80"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IntSig0" scoped="" ref="0x407edc80"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128InterruptSig"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" scoped="" ref="0x40804e58"/>
+        <function-ref name="fired" scoped="" ref="0x407ede58"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="IntSig3" ref="0x40803a90" loc="46:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSigP.nc">
@@ -14740,29 +14740,29 @@
         <function-ref name="fired" scoped="" ref="0x40803c68"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Irq" ref="0x407ed0f8" loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
+    <interface provided="1" name="Irq" ref="0x407ee0f8" loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
       <component-ref qname="HplAtm128InterruptC.IntPin0"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Irq" scoped="" ref="0x407ed0f8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Irq" scoped="" ref="0x407ee0f8"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Interrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="clear" scoped="" ref="0x407ed2d0"/>
-        <function-ref name="fired" scoped="" ref="0x407ed3b0"/>
-        <function-ref name="disable" scoped="" ref="0x407ed490"/>
-        <function-ref name="edge" scoped="" ref="0x407ed570"/>
-        <function-ref name="enable" scoped="" ref="0x407ed650"/>
-        <function-ref name="getValue" scoped="" ref="0x407ed730"/>
+        <function-ref name="clear" scoped="" ref="0x407ee2d0"/>
+        <function-ref name="fired" scoped="" ref="0x407ee3b0"/>
+        <function-ref name="disable" scoped="" ref="0x407ee490"/>
+        <function-ref name="edge" scoped="" ref="0x407ee570"/>
+        <function-ref name="enable" scoped="" ref="0x407ee650"/>
+        <function-ref name="getValue" scoped="" ref="0x407ee730"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="IrqSignal" ref="0x407ed8b0" loc="45:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
+    <interface provided="0" name="IrqSignal" ref="0x407ee8b0" loc="45:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
       <component-ref qname="HplAtm128InterruptC.IntPin0"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="IrqSignal" scoped="" ref="0x407ed8b0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="IrqSignal" scoped="" ref="0x407ee8b0"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128InterruptSig"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" scoped="" ref="0x407eda88"/>
+        <function-ref name="fired" scoped="" ref="0x407eea88"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Irq" ref="0x40818228" loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
@@ -14865,19 +14865,19 @@
         <function-ref name="fired" scoped="" ref="0x4082b0c0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Irq" ref="0x408298f0" loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
+    <interface provided="1" name="Irq" ref="0x4082a8f0" loc="44:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
       <component-ref qname="HplAtm128InterruptC.IntPin5"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Irq" scoped="" ref="0x408298f0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Irq" scoped="" ref="0x4082a8f0"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Interrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="clear" scoped="" ref="0x40829ac8"/>
-        <function-ref name="fired" scoped="" ref="0x40829ba8"/>
-        <function-ref name="disable" scoped="" ref="0x40829c88"/>
-        <function-ref name="edge" scoped="" ref="0x40829d68"/>
-        <function-ref name="enable" scoped="" ref="0x40829e48"/>
-        <function-ref name="getValue" scoped="" ref="0x40829f28"/>
+        <function-ref name="clear" scoped="" ref="0x4082aac8"/>
+        <function-ref name="fired" scoped="" ref="0x4082aba8"/>
+        <function-ref name="disable" scoped="" ref="0x4082ac88"/>
+        <function-ref name="edge" scoped="" ref="0x4082ad68"/>
+        <function-ref name="enable" scoped="" ref="0x4082ae48"/>
+        <function-ref name="getValue" scoped="" ref="0x4082af28"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="IrqSignal" ref="0x408280b8" loc="45:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptPinP.nc">
@@ -15866,25 +15866,25 @@
         <function-ref name="forceState" scoped="" ref="0x408962b0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SpiPacket" ref="0x4095fc58" loc="43:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
+    <interface provided="1" name="SpiPacket" ref="0x408a6c58" loc="43:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
       <component-ref qname="CC2420SpiWireC.HplCC2420SpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SpiPacket" scoped="" ref="0x4095fc58"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SpiPacket" scoped="" ref="0x408a6c58"/></type-interface>
       <instance>
         <interfacedef-ref qname="SpiPacket"/>
       </instance>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x4095fe30"/>
-        <function-ref name="sendDone" scoped="" ref="0x4095ff10"/>
+        <function-ref name="send" scoped="" ref="0x408a6e30"/>
+        <function-ref name="sendDone" scoped="" ref="0x408a6f10"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SpiByte" ref="0x4095f920" loc="42:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
+    <interface provided="1" name="SpiByte" ref="0x408a6920" loc="42:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
       <component-ref qname="CC2420SpiWireC.HplCC2420SpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SpiByte" scoped="" ref="0x4095f920"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SpiByte" scoped="" ref="0x408a6920"/></type-interface>
       <instance>
         <interfacedef-ref qname="SpiByte"/>
       </instance>
       <interface-functions>
-        <function-ref name="write" scoped="" ref="0x4095faf8"/>
+        <function-ref name="write" scoped="" ref="0x408a6af8"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Init" ref="0x40897f10" loc="39:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
@@ -15894,21 +15894,21 @@
         <interfacedef-ref qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" scoped="" ref="0x4095f108"/>
+        <function-ref name="init" scoped="" ref="0x408a6108"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Resource" ref="0x4095f268" loc="40:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
+    <interface provided="1" name="Resource" ref="0x408a6268" loc="40:/opt/tinyos-2.1.2/tos/platforms/micaz/chips/cc2420/HplCC2420SpiC.nc">
       <component-ref qname="CC2420SpiWireC.HplCC2420SpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Resource" scoped="" ref="0x4095f268"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Resource" scoped="" ref="0x408a6268"/></type-interface>
       <instance>
         <interfacedef-ref qname="Resource"/>
       </instance>
       <interface-functions>
-        <function-ref name="release" scoped="" ref="0x4095f440"/>
-        <function-ref name="immediateRequest" scoped="" ref="0x4095f520"/>
-        <function-ref name="request" scoped="" ref="0x4095f600"/>
-        <function-ref name="granted" scoped="" ref="0x4095f6e0"/>
-        <function-ref name="isOwner" scoped="" ref="0x4095f7c0"/>
+        <function-ref name="release" scoped="" ref="0x408a6440"/>
+        <function-ref name="immediateRequest" scoped="" ref="0x408a6520"/>
+        <function-ref name="request" scoped="" ref="0x408a6600"/>
+        <function-ref name="granted" scoped="" ref="0x408a66e0"/>
+        <function-ref name="isOwner" scoped="" ref="0x408a67c0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SpiPacket" ref="0x408baa68" loc="84:/opt/tinyos-2.1.2/tos/chips/atm128/spi/Atm128SpiC.nc">
@@ -16226,37 +16226,37 @@
         <function-ref name="update" scoped="" ref="0x408f9a70"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SPI" ref="0x408fe1c8" loc="74:/opt/tinyos-2.1.2/tos/chips/atm128/spi/HplAtm128SpiP.nc">
+    <interface provided="1" name="SPI" ref="0x408ff1c8" loc="74:/opt/tinyos-2.1.2/tos/chips/atm128/spi/HplAtm128SpiP.nc">
       <component-ref qname="HplAtm128SpiP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SPI" scoped="" ref="0x408fe1c8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SPI" scoped="" ref="0x408ff1c8"/></type-interface>
       <instance>
         <interfacedef-ref qname="Atm128Spi"/>
       </instance>
       <interface-functions>
-        <function-ref name="initSlave" scoped="" ref="0x408fe3a0"/>
-        <function-ref name="sleep" scoped="" ref="0x408fd7f0"/>
-        <function-ref name="isSpiEnabled" scoped="" ref="0x408fe560"/>
-        <function-ref name="dataReady" scoped="" ref="0x408fd8d0"/>
-        <function-ref name="initMaster" scoped="" ref="0x408fe720"/>
-        <function-ref name="setMasterBit" scoped="" ref="0x408fe800"/>
-        <function-ref name="enableInterrupt" scoped="" ref="0x408fe8e0"/>
-        <function-ref name="read" scoped="" ref="0x408fe9c0"/>
-        <function-ref name="setMasterDoubleSpeed" scoped="" ref="0x408feaa0"/>
-        <function-ref name="isInterruptEnabled" scoped="" ref="0x408feb80"/>
-        <function-ref name="setClock" scoped="" ref="0x408fec60"/>
-        <function-ref name="isInterruptPending" scoped="" ref="0x408fed40"/>
-        <function-ref name="setClockPolarity" scoped="" ref="0x408fee20"/>
-        <function-ref name="isMasterDoubleSpeed" scoped="" ref="0x408fd010"/>
-        <function-ref name="setDataOrder" scoped="" ref="0x408fd0f0"/>
-        <function-ref name="write" scoped="" ref="0x408fd1d0"/>
-        <function-ref name="enableSpi" scoped="" ref="0x408fd2b0"/>
-        <function-ref name="isMasterBitSet" scoped="" ref="0x408fd390"/>
-        <function-ref name="getClockPhase" scoped="" ref="0x408fd470"/>
-        <function-ref name="getClock" scoped="" ref="0x408fd550"/>
-        <function-ref name="hasWriteCollided" scoped="" ref="0x408fd630"/>
-        <function-ref name="getClockPolarity" scoped="" ref="0x408fe480"/>
-        <function-ref name="setClockPhase" scoped="" ref="0x408fe640"/>
-        <function-ref name="isOrderLsbFirst" scoped="" ref="0x408fd710"/>
+        <function-ref name="initSlave" scoped="" ref="0x408ff3a0"/>
+        <function-ref name="sleep" scoped="" ref="0x408fe7f0"/>
+        <function-ref name="isSpiEnabled" scoped="" ref="0x408ff560"/>
+        <function-ref name="dataReady" scoped="" ref="0x408fe8d0"/>
+        <function-ref name="initMaster" scoped="" ref="0x408ff720"/>
+        <function-ref name="setMasterBit" scoped="" ref="0x408ff800"/>
+        <function-ref name="enableInterrupt" scoped="" ref="0x408ff8e0"/>
+        <function-ref name="read" scoped="" ref="0x408ff9c0"/>
+        <function-ref name="setMasterDoubleSpeed" scoped="" ref="0x408ffaa0"/>
+        <function-ref name="isInterruptEnabled" scoped="" ref="0x408ffb80"/>
+        <function-ref name="setClock" scoped="" ref="0x408ffc60"/>
+        <function-ref name="isInterruptPending" scoped="" ref="0x408ffd40"/>
+        <function-ref name="setClockPolarity" scoped="" ref="0x408ffe20"/>
+        <function-ref name="isMasterDoubleSpeed" scoped="" ref="0x408fe010"/>
+        <function-ref name="setDataOrder" scoped="" ref="0x408fe0f0"/>
+        <function-ref name="write" scoped="" ref="0x408fe1d0"/>
+        <function-ref name="enableSpi" scoped="" ref="0x408fe2b0"/>
+        <function-ref name="isMasterBitSet" scoped="" ref="0x408fe390"/>
+        <function-ref name="getClockPhase" scoped="" ref="0x408fe470"/>
+        <function-ref name="getClock" scoped="" ref="0x408fe550"/>
+        <function-ref name="hasWriteCollided" scoped="" ref="0x408fe630"/>
+        <function-ref name="getClockPolarity" scoped="" ref="0x408ff480"/>
+        <function-ref name="setClockPhase" scoped="" ref="0x408ff640"/>
+        <function-ref name="isOrderLsbFirst" scoped="" ref="0x408fe710"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="MOSI" ref="0x408fb4a0" loc="80:/opt/tinyos-2.1.2/tos/chips/atm128/spi/HplAtm128SpiP.nc">
@@ -16807,34 +16807,34 @@
         <function-ref name="attemptRelease" scoped="" ref="0x409ba0f0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SFLUSHTX" ref="0x409b7190" loc="54:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SFLUSHTX" ref="0x409b8190" loc="54:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.SyncSpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SFLUSHTX" scoped="" ref="0x409b7190"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SFLUSHTX" scoped="" ref="0x409b8190"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409b7368"/>
+        <function-ref name="strobe" scoped="" ref="0x409b8368"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SACK" ref="0x409b74e8" loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SACK" ref="0x409b84e8" loc="55:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.SyncSpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SACK" scoped="" ref="0x409b74e8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SACK" scoped="" ref="0x409b84e8"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409b7740"/>
+        <function-ref name="strobe" scoped="" ref="0x409b8740"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SACKPEND" ref="0x409b78c0" loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SACKPEND" ref="0x409b88c0" loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.SyncSpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SACKPEND" scoped="" ref="0x409b78c0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SACKPEND" scoped="" ref="0x409b88c0"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409b7a98"/>
+        <function-ref name="strobe" scoped="" ref="0x409b8a98"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="RXFIFO_RAM" ref="0x409ae5c8" loc="89:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17048,14 +17048,14 @@
         <function-ref name="isOwner" scoped="" ref="0x409bbb18"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SRXDEC" ref="0x409b7c18" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SRXDEC" ref="0x409b8c18" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.SyncSpiC"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x409b7c18"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x409b8c18"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409b7df0"/>
+        <function-ref name="strobe" scoped="" ref="0x409b8df0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SAES" ref="0x409b6368" loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17097,7 +17097,7 @@
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409b7010"/>
+        <function-ref name="strobe" scoped="" ref="0x409b8010"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="RXFIFO_REGISTER" ref="0x409af010" loc="82:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17285,15 +17285,15 @@
         <function-ref name="strobe" scoped="" ref="0x409c5010"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="TXFIFO_RAM" ref="0x409dba00" loc="88:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="TXFIFO_RAM" ref="0x409dca00" loc="88:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="TXFIFO_RAM" scoped="" ref="0x409dba00"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="TXFIFO_RAM" scoped="" ref="0x409dca00"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Ram"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x409dbbd8"/>
-        <function-ref name="write" scoped="" ref="0x409dbcb8"/>
+        <function-ref name="read" scoped="" ref="0x409dcbd8"/>
+        <function-ref name="write" scoped="" ref="0x409dccb8"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="RSSI" ref="0x409c3d28" loc="65:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17340,16 +17340,16 @@
         <function-ref name="write" scoped="" ref="0x409bf880"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="ChipSpiResource" ref="0x409c76c8" loc="42:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="ChipSpiResource" ref="0x409c86c8" loc="42:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="ChipSpiResource" scoped="" ref="0x409c76c8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="ChipSpiResource" scoped="" ref="0x409c86c8"/></type-interface>
       <instance>
         <interfacedef-ref qname="ChipSpiResource"/>
       </instance>
       <interface-functions>
-        <function-ref name="releasing" scoped="" ref="0x409c78a0"/>
-        <function-ref name="abortRelease" scoped="" ref="0x409c7980"/>
-        <function-ref name="attemptRelease" scoped="" ref="0x409c7a60"/>
+        <function-ref name="releasing" scoped="" ref="0x409c88a0"/>
+        <function-ref name="abortRelease" scoped="" ref="0x409c8980"/>
+        <function-ref name="attemptRelease" scoped="" ref="0x409c8a60"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SFLUSHTX" ref="0x409c5b98" loc="54:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17382,9 +17382,9 @@
         <function-ref name="strobe" scoped="" ref="0x409c44e0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="RXFIFO_RAM" ref="0x409dbe38" loc="89:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="RXFIFO_RAM" ref="0x409dce38" loc="89:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="RXFIFO_RAM" scoped="" ref="0x409dbe38"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="RXFIFO_RAM" scoped="" ref="0x409dce38"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Ram"/>
       </instance>
@@ -17468,15 +17468,15 @@
         <function-ref name="write" scoped="" ref="0x409bd2c8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SHORTADR" ref="0x409db5c8" loc="87:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SHORTADR" ref="0x409dc5c8" loc="87:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SHORTADR" scoped="" ref="0x409db5c8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SHORTADR" scoped="" ref="0x409dc5c8"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Ram"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x409db7a0"/>
-        <function-ref name="write" scoped="" ref="0x409db880"/>
+        <function-ref name="read" scoped="" ref="0x409dc7a0"/>
+        <function-ref name="write" scoped="" ref="0x409dc880"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="MANFIDL" ref="0x409bfe38" loc="76:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17504,14 +17504,14 @@
         <function-ref name="readDone" scoped="" ref="0x409d8010"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SNOP" ref="0x409c7be0" loc="45:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SNOP" ref="0x409c8be0" loc="45:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SNOP" scoped="" ref="0x409c7be0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SNOP" scoped="" ref="0x409c8be0"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x409c7db8"/>
+        <function-ref name="strobe" scoped="" ref="0x409c8db8"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="MAIN" ref="0x409c3080" loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17579,18 +17579,18 @@
         <function-ref name="write" scoped="" ref="0x409c0b58"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Resource" ref="0x409c7010" loc="41:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="Resource" ref="0x409c8010" loc="41:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Resource" scoped="" ref="0x409c7010"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Resource" scoped="" ref="0x409c8010"/></type-interface>
       <instance>
         <interfacedef-ref qname="Resource"/>
       </instance>
       <interface-functions>
-        <function-ref name="release" scoped="" ref="0x409c71e8"/>
-        <function-ref name="immediateRequest" scoped="" ref="0x409c72c8"/>
-        <function-ref name="request" scoped="" ref="0x409c73a8"/>
-        <function-ref name="granted" scoped="" ref="0x409c7488"/>
-        <function-ref name="isOwner" scoped="" ref="0x409c7568"/>
+        <function-ref name="release" scoped="" ref="0x409c81e8"/>
+        <function-ref name="immediateRequest" scoped="" ref="0x409c82c8"/>
+        <function-ref name="request" scoped="" ref="0x409c83a8"/>
+        <function-ref name="granted" scoped="" ref="0x409c8488"/>
+        <function-ref name="isOwner" scoped="" ref="0x409c8568"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SRXDEC" ref="0x409c4660" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17613,15 +17613,15 @@
         <function-ref name="strobe" scoped="" ref="0x409c4ee8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="PANID" ref="0x409db190" loc="86:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="PANID" ref="0x409dc190" loc="86:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420ControlC.RssiResource"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="PANID" scoped="" ref="0x409db190"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="PANID" scoped="" ref="0x409dc190"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Ram"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x409db368"/>
-        <function-ref name="write" scoped="" ref="0x409db448"/>
+        <function-ref name="read" scoped="" ref="0x409dc368"/>
+        <function-ref name="write" scoped="" ref="0x409dc448"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="IEEEADR" ref="0x409bdcb8" loc="85:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17632,7 +17632,7 @@
       </instance>
       <interface-functions>
         <function-ref name="read" scoped="" ref="0x409bde90"/>
-        <function-ref name="write" scoped="" ref="0x409db010"/>
+        <function-ref name="write" scoped="" ref="0x409dc010"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="SFLUSHRX" ref="0x409c5840" loc="53:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -17991,14 +17991,14 @@
         <function-ref name="sfd" scoped="" ref="0x40a16df8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Send" ref="0x40a0bcd8" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
+    <interface provided="1" name="Send" ref="0x40a0ccd8" loc="50:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
       <component-ref qname="CC2420TransmitP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Send" scoped="" ref="0x40a0bcd8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Send" scoped="" ref="0x40a0ccd8"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Transmit"/>
       </instance>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x40a0beb0"/>
+        <function-ref name="send" scoped="" ref="0x40a0ceb0"/>
         <function-ref name="cancel" scoped="" ref="0x40a0a010"/>
         <function-ref name="modify" scoped="" ref="0x40a0a0f0"/>
         <function-ref name="sendDone" scoped="" ref="0x40a0a1d0"/>
@@ -18044,14 +18044,14 @@
         <function-ref name="clr" scoped="" ref="0x40a021d0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Init" ref="0x40a0b440" loc="48:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
+    <interface provided="1" name="Init" ref="0x40a0c440" loc="48:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
       <component-ref qname="CC2420TransmitP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40a0b440"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40a0c440"/></type-interface>
       <instance>
         <interfacedef-ref qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" scoped="" ref="0x40a0b618"/>
+        <function-ref name="init" scoped="" ref="0x40a0c618"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="CC2420PacketBody" ref="0x40a07b00" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
@@ -18201,15 +18201,15 @@
         <function-ref name="write" scoped="" ref="0x40a1cb08"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="StdControl" ref="0x40a0b7e0" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
+    <interface provided="1" name="StdControl" ref="0x40a0c7e0" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
       <component-ref qname="CC2420TransmitP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40a0b7e0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40a0c7e0"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x40a0b9b8"/>
-        <function-ref name="stop" scoped="" ref="0x40a0ba98"/>
+        <function-ref name="start" scoped="" ref="0x40a0c9b8"/>
+        <function-ref name="stop" scoped="" ref="0x40a0ca98"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="TXFIFO" ref="0x409feb48" loc="67:/opt/tinyos-2.1.2/tos/chips/cc2420/transmit/CC2420TransmitP.nc">
@@ -18277,9 +18277,9 @@
         <function-ref name="strobe" scoped="" ref="0x40a6fdd0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="MDMCTRL0" ref="0x40a6be50" loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="MDMCTRL0" ref="0x40a6ce50" loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420TransmitC.Spi"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="MDMCTRL0" scoped="" ref="0x40a6be50"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="MDMCTRL0" scoped="" ref="0x40a6ce50"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
@@ -18571,15 +18571,15 @@
         <function-ref name="strobe" scoped="" ref="0x40a6f720"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="MAIN" ref="0x40a6ba18" loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="MAIN" ref="0x40a6ca18" loc="62:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420TransmitC.Spi"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="MAIN" scoped="" ref="0x40a6ba18"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="MAIN" scoped="" ref="0x40a6ca18"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40a6bbf0"/>
-        <function-ref name="write" scoped="" ref="0x40a6bcd0"/>
+        <function-ref name="read" scoped="" ref="0x40a6cbf0"/>
+        <function-ref name="write" scoped="" ref="0x40a6ccd0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="RXCTRL0" ref="0x40a69448" loc="68:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -18650,24 +18650,24 @@
         <function-ref name="isOwner" scoped="" ref="0x40a70ea8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SRXDEC" ref="0x40a6b010" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SRXDEC" ref="0x40a6c010" loc="57:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420TransmitC.Spi"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x40a6b010"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x40a6c010"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x40a6b1e8"/>
+        <function-ref name="strobe" scoped="" ref="0x40a6c1e8"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="SAES" ref="0x40a6b6c0" loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="SAES" ref="0x40a6c6c0" loc="59:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420TransmitC.Spi"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SAES" scoped="" ref="0x40a6b6c0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SAES" scoped="" ref="0x40a6c6c0"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x40a6b898"/>
+        <function-ref name="strobe" scoped="" ref="0x40a6c898"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="PANID" ref="0x40a64a00" loc="86:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -18777,14 +18777,14 @@
         <function-ref name="write" scoped="" ref="0x40a67e90"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="STXENC" ref="0x40a6b368" loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
+    <interface provided="1" name="STXENC" ref="0x40a6c368" loc="58:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
       <component-ref qname="CC2420TransmitC.Spi"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="STXENC" scoped="" ref="0x40a6b368"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="STXENC" scoped="" ref="0x40a6c368"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x40a6b540"/>
+        <function-ref name="strobe" scoped="" ref="0x40a6c540"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="TXFIFO" ref="0x40a83a68" loc="98:/opt/tinyos-2.1.2/tos/chips/cc2420/spi/CC2420SpiC.nc">
@@ -18934,15 +18934,15 @@
         <function-ref name="clr" scoped="" ref="0x40a966e0"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="SECCTRL1" ref="0x40a8faa0" loc="69:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="0" name="SECCTRL1" ref="0x40a90aa0" loc="69:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SECCTRL1" scoped="" ref="0x40a8faa0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SECCTRL1" scoped="" ref="0x40a90aa0"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40a8fc78"/>
-        <function-ref name="write" scoped="" ref="0x40a8fd58"/>
+        <function-ref name="read" scoped="" ref="0x40a90c78"/>
+        <function-ref name="write" scoped="" ref="0x40a90d58"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="KEY0" ref="0x40a8e010" loc="70:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
@@ -18982,15 +18982,15 @@
         <function-ref name="getLqi" scoped="" ref="0x40a94eb0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="CC2420Receive" ref="0x40a76c70" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="1" name="CC2420Receive" ref="0x40a77c70" loc="49:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Receive" scoped="" ref="0x40a76c70"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="CC2420Receive" scoped="" ref="0x40a77c70"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Receive"/>
       </instance>
       <interface-functions>
-        <function-ref name="receive" scoped="" ref="0x40a76e48"/>
-        <function-ref name="sfd_dropped" scoped="" ref="0x40a76f28"/>
+        <function-ref name="receive" scoped="" ref="0x40a77e48"/>
+        <function-ref name="sfd_dropped" scoped="" ref="0x40a77f28"/>
         <function-ref name="sfd" scoped="" ref="0x40a75018"/>
       </interface-functions>
     </interface>
@@ -19032,14 +19032,14 @@
         <function-ref name="write" scoped="" ref="0x40a8d1a0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Init" ref="0x40a76430" loc="47:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="1" name="Init" ref="0x40a77430" loc="47:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40a76430"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40a77430"/></type-interface>
       <instance>
         <interfacedef-ref qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" scoped="" ref="0x40a76608"/>
+        <function-ref name="init" scoped="" ref="0x40a77608"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="CC2420PacketBody" ref="0x40a93108" loc="63:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
@@ -19143,25 +19143,25 @@
         <function-ref name="led2On" scoped="" ref="0x40a8c2b0"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="SECCTRL0" ref="0x40a8f580" loc="68:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="0" name="SECCTRL0" ref="0x40a90580" loc="68:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SECCTRL0" scoped="" ref="0x40a8f580"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SECCTRL0" scoped="" ref="0x40a90580"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Register"/>
       </instance>
       <interface-functions>
-        <function-ref name="read" scoped="" ref="0x40a8f758"/>
-        <function-ref name="write" scoped="" ref="0x40a8f838"/>
+        <function-ref name="read" scoped="" ref="0x40a90758"/>
+        <function-ref name="write" scoped="" ref="0x40a90838"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="SRXDEC" ref="0x40a8f140" loc="67:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="0" name="SRXDEC" ref="0x40a90140" loc="67:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x40a8f140"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="SRXDEC" scoped="" ref="0x40a90140"/></type-interface>
       <instance>
         <interfacedef-ref qname="CC2420Strobe"/>
       </instance>
       <interface-functions>
-        <function-ref name="strobe" scoped="" ref="0x40a8f318"/>
+        <function-ref name="strobe" scoped="" ref="0x40a90318"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="InterruptFIFOP" ref="0x40a96978" loc="56:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
@@ -19187,15 +19187,15 @@
         <function-ref name="strobe" scoped="" ref="0x40a94698"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="StdControl" ref="0x40a767d0" loc="48:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
+    <interface provided="1" name="StdControl" ref="0x40a777d0" loc="48:/opt/tinyos-2.1.2/tos/chips/cc2420/receive/CC2420ReceiveP.nc">
       <component-ref qname="CC2420ReceiveP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40a767d0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40a777d0"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x40a769a8"/>
-        <function-ref name="stop" scoped="" ref="0x40a76a88"/>
+        <function-ref name="start" scoped="" ref="0x40a779a8"/>
+        <function-ref name="stop" scoped="" ref="0x40a77a88"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="LinkPacketMetadata" ref="0x40add060" loc="44:/opt/tinyos-2.1.2/tos/chips/cc2420/packet/CC2420PacketC.nc">
@@ -19963,12 +19963,12 @@
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="getNow" scoped="" ref="0x40bba248"/>
+        <function-ref name="getNow" scoped="" ref="0x40bb6248"/>
         <function-ref name="fired" scoped="" ref="0x40bc04e8"/>
         <function-ref name="startPeriodicAt" scoped="" ref="0x40bc0bf0"/>
         <function-ref name="isOneShot" scoped="" ref="0x40bc0998"/>
-        <function-ref name="getdt" scoped="" ref="0x40bba6f8"/>
-        <function-ref name="gett0" scoped="" ref="0x40bba4a0"/>
+        <function-ref name="getdt" scoped="" ref="0x40bb66f8"/>
+        <function-ref name="gett0" scoped="" ref="0x40bb64a0"/>
         <function-ref name="isRunning" scoped="" ref="0x40bc0740"/>
         <function-ref name="startPeriodic" scoped="" ref="0x40bc1d10"/>
         <function-ref name="startOneShotAt" scoped="" ref="0x40bc0f10"/>
@@ -19976,9 +19976,9 @@
         <function-ref name="stop" scoped="" ref="0x40bc0290"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="TimerMilli" ref="0x40bbc8e8" loc="49:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc">
+    <interface provided="1" name="TimerMilli" ref="0x40bbd8e8" loc="49:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc">
       <component-ref qname="TimerMilliP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="TimerMilli" scoped="" ref="0x40bbc8e8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="TimerMilli" scoped="" ref="0x40bbd8e8"/></type-interface>
       <instance>
         <interfacedef-ref qname="Timer"/>
         <arguments>
@@ -20000,7 +20000,7 @@
         <function-ref name="getdt" scoped="" ref="0x40bb88a8"/>
         <function-ref name="gett0" scoped="" ref="0x40bb8650"/>
         <function-ref name="isRunning" scoped="" ref="0x40bb98d8"/>
-        <function-ref name="startPeriodic" scoped="" ref="0x40bbcf10"/>
+        <function-ref name="startPeriodic" scoped="" ref="0x40bbdf10"/>
         <function-ref name="startOneShotAt" scoped="" ref="0x40bb80d8"/>
         <function-ref name="startOneShot" scoped="" ref="0x40bb91a8"/>
         <function-ref name="stop" scoped="" ref="0x40bb9428"/>
@@ -21776,10 +21776,10 @@
       </interface-parameters>
       <interface-functions>
         <function-ref name="send" scoped="" ref="0x40cd9e90"/>
-        <function-ref name="getPayload" scoped="" ref="0x40d0a010"/>
-        <function-ref name="maxPayloadLength" scoped="" ref="0x40d0a0f0"/>
-        <function-ref name="cancel" scoped="" ref="0x40d0a1d0"/>
-        <function-ref name="sendDone" scoped="" ref="0x40d0a2b0"/>
+        <function-ref name="getPayload" scoped="" ref="0x40d0b010"/>
+        <function-ref name="maxPayloadLength" scoped="" ref="0x40d0b0f0"/>
+        <function-ref name="cancel" scoped="" ref="0x40d0b1d0"/>
+        <function-ref name="sendDone" scoped="" ref="0x40d0b2b0"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Send" ref="0x40cd9538" loc="46:/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc">
@@ -21837,24 +21837,24 @@
         <function-ref name="runTask" scoped="" ref="0x40d09dd8"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="AMPacket" ref="0x40d0a3f0" loc="49:/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc">
+    <interface provided="0" name="AMPacket" ref="0x40d0b3f0" loc="49:/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc">
       <component-ref qname="AMQueueP.AMQueueImplP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x40d0a3f0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="AMPacket" scoped="" ref="0x40d0b3f0"/></type-interface>
       <instance>
         <interfacedef-ref qname="AMPacket"/>
       </instance>
       <interface-functions>
-        <function-ref name="group" scoped="" ref="0x40d0a5c8"/>
-        <function-ref name="source" scoped="" ref="0x40d0a6a8"/>
-        <function-ref name="address" scoped="" ref="0x40d0a788"/>
-        <function-ref name="destination" scoped="" ref="0x40d0a868"/>
-        <function-ref name="setSource" scoped="" ref="0x40d0a948"/>
-        <function-ref name="setDestination" scoped="" ref="0x40d0aa28"/>
-        <function-ref name="type" scoped="" ref="0x40d0ab08"/>
-        <function-ref name="setType" scoped="" ref="0x40d0abe8"/>
-        <function-ref name="isForMe" scoped="" ref="0x40d0acc8"/>
-        <function-ref name="setGroup" scoped="" ref="0x40d0ada8"/>
-        <function-ref name="localGroup" scoped="" ref="0x40d0ae88"/>
+        <function-ref name="group" scoped="" ref="0x40d0b5c8"/>
+        <function-ref name="source" scoped="" ref="0x40d0b6a8"/>
+        <function-ref name="address" scoped="" ref="0x40d0b788"/>
+        <function-ref name="destination" scoped="" ref="0x40d0b868"/>
+        <function-ref name="setSource" scoped="" ref="0x40d0b948"/>
+        <function-ref name="setDestination" scoped="" ref="0x40d0ba28"/>
+        <function-ref name="type" scoped="" ref="0x40d0bb08"/>
+        <function-ref name="setType" scoped="" ref="0x40d0bbe8"/>
+        <function-ref name="isForMe" scoped="" ref="0x40d0bcc8"/>
+        <function-ref name="setGroup" scoped="" ref="0x40d0bda8"/>
+        <function-ref name="localGroup" scoped="" ref="0x40d0be88"/>
       </interface-functions>
     </interface>
     <interface provided="1" name="Packet" ref="0x40d2dd60" loc="46:/opt/tinyos-2.1.2/tos/system/AMReceiverC.nc">
@@ -22850,52 +22850,52 @@
         <function-ref name="stop" scoped="" ref="0x40e3d420"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="UartByte" ref="0x40e39e28" loc="50:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
+    <interface provided="1" name="UartByte" ref="0x40e3ae28" loc="50:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
       <component-ref qname="Atm128Uart0C.UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="UartByte" scoped="" ref="0x40e39e28"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="UartByte" scoped="" ref="0x40e3ae28"/></type-interface>
       <instance>
         <interfacedef-ref qname="UartByte"/>
       </instance>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x40e38050"/>
-        <function-ref name="receive" scoped="" ref="0x40e38130"/>
+        <function-ref name="send" scoped="" ref="0x40e39050"/>
+        <function-ref name="receive" scoped="" ref="0x40e39130"/>
       </interface-functions>
     </interface>
-    <interface provided="0" name="HplUartTxControl" ref="0x40e38b28" loc="53:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
+    <interface provided="0" name="HplUartTxControl" ref="0x40e39b28" loc="53:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
       <component-ref qname="Atm128Uart0C.UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="HplUartTxControl" scoped="" ref="0x40e38b28"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="HplUartTxControl" scoped="" ref="0x40e39b28"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x40e38d00"/>
-        <function-ref name="stop" scoped="" ref="0x40e38de0"/>
+        <function-ref name="start" scoped="" ref="0x40e39d00"/>
+        <function-ref name="stop" scoped="" ref="0x40e39de0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Init" ref="0x40e396d8" loc="48:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
+    <interface provided="1" name="Init" ref="0x40e3a6d8" loc="48:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
       <component-ref qname="Atm128Uart0C.UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40e396d8"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Init" scoped="" ref="0x40e3a6d8"/></type-interface>
       <instance>
         <interfacedef-ref qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" scoped="" ref="0x40e398b0"/>
+        <function-ref name="init" scoped="" ref="0x40e3a8b0"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="UartStream" ref="0x40e38290" loc="51:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
+    <interface provided="1" name="UartStream" ref="0x40e39290" loc="51:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
       <component-ref qname="Atm128Uart0C.UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="UartStream" scoped="" ref="0x40e38290"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="UartStream" scoped="" ref="0x40e39290"/></type-interface>
       <instance>
         <interfacedef-ref qname="UartStream"/>
       </instance>
       <interface-functions>
-        <function-ref name="send" scoped="" ref="0x40e38468"/>
-        <function-ref name="receivedByte" scoped="" ref="0x40e38548"/>
-        <function-ref name="receive" scoped="" ref="0x40e38628"/>
-        <function-ref name="enableReceiveInterrupt" scoped="" ref="0x40e38708"/>
-        <function-ref name="receiveDone" scoped="" ref="0x40e387e8"/>
-        <function-ref name="disableReceiveInterrupt" scoped="" ref="0x40e388c8"/>
-        <function-ref name="sendDone" scoped="" ref="0x40e389a8"/>
+        <function-ref name="send" scoped="" ref="0x40e39468"/>
+        <function-ref name="receivedByte" scoped="" ref="0x40e39548"/>
+        <function-ref name="receive" scoped="" ref="0x40e39628"/>
+        <function-ref name="enableReceiveInterrupt" scoped="" ref="0x40e39708"/>
+        <function-ref name="receiveDone" scoped="" ref="0x40e397e8"/>
+        <function-ref name="disableReceiveInterrupt" scoped="" ref="0x40e398c8"/>
+        <function-ref name="sendDone" scoped="" ref="0x40e399a8"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="Counter" ref="0x40e750a0" loc="56:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
@@ -22938,15 +22938,15 @@
         <function-ref name="rx" scoped="" ref="0x40e76e00"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="StdControl" ref="0x40e39a10" loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
+    <interface provided="1" name="StdControl" ref="0x40e3aa10" loc="49:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
       <component-ref qname="Atm128Uart0C.UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40e39a10"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="StdControl" scoped="" ref="0x40e3aa10"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x40e39be8"/>
-        <function-ref name="stop" scoped="" ref="0x40e39cc8"/>
+        <function-ref name="start" scoped="" ref="0x40e3abe8"/>
+        <function-ref name="stop" scoped="" ref="0x40e3acc8"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="HplUartRxControl" ref="0x40e76010" loc="54:/opt/tinyos-2.1.2/tos/chips/atm128/Atm128UartP.nc">
@@ -23081,20 +23081,20 @@
         <function-ref name="init" scoped="" ref="0x40e8fa18"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="HplUart1" ref="0x40e8d7a0" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartP.nc">
+    <interface provided="1" name="HplUart1" ref="0x40e8e7a0" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartP.nc">
       <component-ref qname="HplAtm128UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="HplUart1" scoped="" ref="0x40e8d7a0"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="HplUart1" scoped="" ref="0x40e8e7a0"/></type-interface>
       <instance>
         <interfacedef-ref qname="HplAtm128Uart"/>
       </instance>
       <interface-functions>
-        <function-ref name="isTxEmpty" scoped="" ref="0x40e8d978"/>
-        <function-ref name="enableRxIntr" scoped="" ref="0x40e8da58"/>
-        <function-ref name="rxDone" scoped="" ref="0x40e8db38"/>
-        <function-ref name="txDone" scoped="" ref="0x40e8dc18"/>
-        <function-ref name="enableTxIntr" scoped="" ref="0x40e8dcf8"/>
-        <function-ref name="disableTxIntr" scoped="" ref="0x40e8ddd8"/>
-        <function-ref name="disableRxIntr" scoped="" ref="0x40e8deb8"/>
+        <function-ref name="isTxEmpty" scoped="" ref="0x40e8e978"/>
+        <function-ref name="enableRxIntr" scoped="" ref="0x40e8ea58"/>
+        <function-ref name="rxDone" scoped="" ref="0x40e8eb38"/>
+        <function-ref name="txDone" scoped="" ref="0x40e8ec18"/>
+        <function-ref name="enableTxIntr" scoped="" ref="0x40e8ecf8"/>
+        <function-ref name="disableTxIntr" scoped="" ref="0x40e8edd8"/>
+        <function-ref name="disableRxIntr" scoped="" ref="0x40e8eeb8"/>
         <function-ref name="isRxEmpty" scoped="" ref="0x40e8c010"/>
         <function-ref name="tx" scoped="" ref="0x40e8c0f0"/>
         <function-ref name="rx" scoped="" ref="0x40e8c1d0"/>
@@ -23119,18 +23119,18 @@
       </instance>
       <interface-functions>
         <function-ref name="start" scoped="" ref="0x40e8fe68"/>
-        <function-ref name="stop" scoped="" ref="0x40e8d010"/>
+        <function-ref name="stop" scoped="" ref="0x40e8e010"/>
       </interface-functions>
     </interface>
-    <interface provided="1" name="Uart1RxControl" ref="0x40e8d288" loc="87:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartP.nc">
+    <interface provided="1" name="Uart1RxControl" ref="0x40e8e288" loc="87:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartP.nc">
       <component-ref qname="HplAtm128UartP"/>
-      <type-interface size="I:2" alignment="I:1"><interface-ref name="Uart1RxControl" scoped="" ref="0x40e8d288"/></type-interface>
+      <type-interface size="I:2" alignment="I:1"><interface-ref name="Uart1RxControl" scoped="" ref="0x40e8e288"/></type-interface>
       <instance>
         <interfacedef-ref qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" scoped="" ref="0x40e8d460"/>
-        <function-ref name="stop" scoped="" ref="0x40e8d540"/>
+        <function-ref name="start" scoped="" ref="0x40e8e460"/>
+        <function-ref name="stop" scoped="" ref="0x40e8e540"/>
       </interface-functions>
     </interface>
     <interface provided="0" name="Atm128Calibrate" ref="0x40e8c3c8" loc="90:/opt/tinyos-2.1.2/tos/chips/atm128/HplAtm128UartP.nc">
@@ -24902,23 +24902,23 @@
     </interfacedef>
     <interfacedef qname="PacketTimeStamp" loc="35:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
       <parameters>
-        <typedef name="precision_tag" ref="0x4057b178" loc="35:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+        <typedef name="precision_tag" ref="0x40572328" loc="35:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <interfacedef-ref qname="PacketTimeStamp"/>
-          <type-var size="U:" alignment="U:"><typedef-ref name="precision_tag" scoped="" ref="0x4057b178"/></type-var>
+          <type-var size="U:" alignment="U:"><typedef-ref name="precision_tag" scoped="" ref="0x40572328"/></type-var>
         </typedef>
-        <typedef name="size_type" ref="0x4057b2e0" loc="35:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+        <typedef name="size_type" ref="0x40572490" loc="35:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <interfacedef-ref qname="PacketTimeStamp"/>
-          <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x4057b2e0"/></type-var>
+          <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x40572490"/></type-var>
         </typedef>
       </parameters>
-      <function command="" provided="0" name="timestamp" ref="0x4057a4d8" loc="63:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+      <function command="" provided="0" name="timestamp" ref="0x405796a8" loc="63:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
         <documentation loc="51:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t *ONE msg' Message to get timestamp from.&#10;&#10; Return the time stamp for the given message. Please check with the&#10; isValid command if this value can be relied upon. If this command is&#10; called after transmission, then the transmit time of the packet&#10; is returned (the time when the frame synchronization byte was&#10; transmitted). If this command is called after the message is received,&#10; the tne receive time of the message is returned. It is recommended that&#10; the timestamp command be called only from the receive or sendDone event&#10; handler.&#10;</long>
         </documentation>
         <interfacedef-ref qname="PacketTimeStamp"/>
         <type-function size="I:1" alignment="I:1">
-          <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x4057b2e0"/></type-var>
+          <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x40572490"/></type-var>
           <function-parameters>
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
@@ -24928,7 +24928,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x4057a380" loc="63:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+          <variable name="msg" ref="0x40579550" loc="63:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -24937,7 +24937,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="clear" ref="0x40579010" loc="70:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+      <function command="" provided="0" name="clear" ref="0x4057a168" loc="70:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
         <documentation loc="65:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t *ONE msg' Message to modify.&#10;&#10; Sets the isValid flag to FALSE.&#10;</long>
@@ -24954,7 +24954,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x4057ae18" loc="70:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+          <variable name="msg" ref="0x4057a010" loc="70:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -24963,7 +24963,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="isValid" ref="0x4057b968" loc="49:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+      <function command="" provided="0" name="isValid" ref="0x40572b18" loc="49:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
         <documentation loc="37:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t *ONE msg' Message to examine.&#10;&#10; Returns TRUE if the time stamp of the message is valid. Under special&#10; circumstances the radio chip might not be able to correctly assign a&#10; precise time value to an incoming packet (e.g. under very heavy traffic&#10; multiple interrupts can occur before they could be serviced, and even&#10; if capture registers are used, it is not possible to get the time stamp&#10; for the first or last unserviced event), in which case the time stamp&#10; value should not be used. It is recommended that the isValid command be&#10; called from the receive or sendDone event handler.&#10;</long>
@@ -24982,7 +24982,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x4057b810" loc="49:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+          <variable name="msg" ref="0x405729c0" loc="49:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -24991,7 +24991,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="set" ref="0x40579ad0" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+      <function command="" provided="0" name="set" ref="0x4057ac28" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
         <documentation loc="72:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t *ONE msg' Message to modify.&#10;&#10; Sets the isValid flag to TRUE and the time stamp value to the&#10; specified value.&#10;</long>
@@ -25005,19 +25005,19 @@
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
               </type-tag>
             </type-pointer>
-            <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x4057b2e0"/></type-var>
+            <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x40572490"/></type-var>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x40579760" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+          <variable name="msg" ref="0x4057a8b8" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
               </type-tag>
             </type-pointer>
           </variable>
-          <variable name="value" ref="0x40579970" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
-            <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x4057b2e0"/></type-var>
+          <variable name="value" ref="0x4057aac8" loc="78:/opt/tinyos-2.1.2/tos/interfaces/PacketTimeStamp.nc">
+            <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x40572490"/></type-var>
           </variable>
         </parameters>
       </function>
@@ -25027,7 +25027,7 @@
         <short>&#10; Low Power Listening interface&#10;&#10; </short>
         <long>&#10; Low Power Listening interface&#10;&#10; @author Jonathan Hui&#10; @author David Moss&#10;</long>
       </documentation>
-      <function command="" provided="0" name="setRemoteWakeupInterval" ref="0x40581b60" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+      <function command="" provided="0" name="setRemoteWakeupInterval" ref="0x40581bd8" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
         <documentation loc="59:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
           <short>&#10; Configure this outgoing message so it can be transmitted to a neighbor mote&#10; with the specified wakeup interval.</short>
           <long>&#10; Configure this outgoing message so it can be transmitted to a neighbor mote&#10; with the specified wakeup interval.&#10; @param 'message_t* ONE msg' Pointer to the message that will be sent&#10; @param intervalMs The receiving node's wakeup interval, in [ms]&#10;</long>
@@ -25047,21 +25047,21 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x405817c8" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+          <variable name="msg" ref="0x40581840" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
               </type-tag>
             </type-pointer>
           </variable>
-          <variable name="intervalMs" ref="0x40581a00" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+          <variable name="intervalMs" ref="0x40581a78" loc="65:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
             <type-int cname="unsigned short" unsigned="" size="I:2" alignment="I:1">
               <typename><typedef-ref name="uint16_t" ref="0x402121e8"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="getRemoteWakeupInterval" ref="0x4057f650" loc="71:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+      <function command="" provided="0" name="getRemoteWakeupInterval" ref="0x4057f6c8" loc="71:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
         <documentation loc="67:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t* ONE msg'&#10; @return the destination node's wakeup interval configured in this message&#10;</long>
@@ -25080,7 +25080,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x4057f4f8" loc="71:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+          <variable name="msg" ref="0x4057f570" loc="71:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25089,7 +25089,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="getLocalWakeupInterval" ref="0x405812f0" loc="57:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+      <function command="" provided="0" name="getLocalWakeupInterval" ref="0x40581368" loc="57:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
         <documentation loc="54:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
           <short>&#10; </short>
           <long>&#10; @return the local node's wakeup interval, in [ms]&#10;</long>
@@ -25105,7 +25105,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" provided="0" name="setLocalWakeupInterval" ref="0x40584ba0" loc="52:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+      <function command="" provided="0" name="setLocalWakeupInterval" ref="0x40584cd0" loc="52:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
         <documentation loc="42:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
           <short>&#10; Set this this node's radio wakeup interval, in milliseconds.</short>
           <long>&#10; Set this this node's radio wakeup interval, in milliseconds. After&#10; each interval, the node will wakeup and check for radio activity.&#10;&#10; Note: The wakeup interval can be set to 0 to indicate that the radio&#10; should stay on all the time but in order to get a startDone this&#10; should only be done when the duty-cycling is off (after a stopDone).&#10;&#10; @param intervalMs the length of this node's Rx check interval, in [ms]&#10;</long>
@@ -25120,7 +25120,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="intervalMs" ref="0x40584a48" loc="52:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
+          <variable name="intervalMs" ref="0x40584b78" loc="52:/opt/tinyos-2.1.2/tos/interfaces/LowPowerListening.nc">
             <type-int cname="unsigned short" unsigned="" size="I:2" alignment="I:1">
               <typename><typedef-ref name="uint16_t" ref="0x402121e8"/></typename>
             </type-int>
@@ -25133,7 +25133,7 @@
         <short>&#10; This interface allows a component to enable or disable acknowledgments&#10; on a per-packet basis.</short>
         <long>&#10; This interface allows a component to enable or disable acknowledgments&#10; on a per-packet basis.&#10;&#10; @author Jonathan Hui&#10; @author Philip Levis&#10; @author Joe Polastre&#10; @date   June 21 2006&#10;</long>
       </documentation>
-      <function command="" provided="0" name="requestAck" ref="0x40573c90" loc="59:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+      <function command="" provided="0" name="requestAck" ref="0x40573e48" loc="59:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
         <documentation loc="46:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
           <short>&#10; Tell a protocol that when it sends this packet, it should use synchronous&#10; acknowledgments.</short>
           <long>&#10; Tell a protocol that when it sends this packet, it should use synchronous&#10; acknowledgments.&#10; The acknowledgment is synchronous as the caller can check whether the&#10; ack was received through the wasAcked() command as soon as a send operation&#10; completes.&#10;&#10; @param 'message_t* ONE msg' - A message which should be acknowledged when transmitted.&#10; @return SUCCESS if acknowledgements are enabled, EBUSY&#10; if the communication layer cannot enable them at this time, FAIL&#10; if it does not support them.&#10;</long>
@@ -25152,7 +25152,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x40573b38" loc="59:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+          <variable name="msg" ref="0x40573cf0" loc="59:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25161,7 +25161,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="noAck" ref="0x4057d7c8" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+      <function command="" provided="0" name="noAck" ref="0x405709c8" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
         <documentation loc="61:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
           <short>&#10; Tell a protocol that when it sends this packet, it should not use&#10; synchronous acknowledgments.</short>
           <long>&#10; Tell a protocol that when it sends this packet, it should not use&#10; synchronous acknowledgments.&#10;&#10; @param 'message_t* ONE msg' - A message which should not be acknowledged when transmitted.&#10; @return SUCCESS if acknowledgements are disabled, EBUSY&#10; if the communication layer cannot disable them at this time, FAIL&#10; if it cannot support unacknowledged communication.&#10;</long>
@@ -25180,7 +25180,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x4057d670" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+          <variable name="msg" ref="0x40570870" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25189,7 +25189,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="wasAcked" ref="0x405702a0" loc="85:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+      <function command="" provided="0" name="wasAcked" ref="0x4057d460" loc="85:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
         <documentation loc="73:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
           <short>&#10; Tell a caller whether or not a transmitted packet was acknowledged.</short>
           <long>&#10; Tell a caller whether or not a transmitted packet was acknowledged.&#10; If acknowledgments on the packet had been disabled through noAck(),&#10; then the return value is undefined. If a packet&#10; layer does not support acknowledgements, this command must return always&#10; return FALSE.&#10;&#10; @param 'message_t* ONE msg' - A transmitted message.&#10; @return Whether the packet was acknowledged.&#10;&#10;</long>
@@ -25208,7 +25208,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x40570148" loc="85:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
+          <variable name="msg" ref="0x4057d308" loc="85:/opt/tinyos-2.1.2/tos/interfaces/PacketAcknowledgements.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25591,7 +25591,7 @@
         <short>&#10; </short>
         <long>&#10; @author David Moss&#10; @author Jon Wyant&#10;</long>
       </documentation>
-      <function command="" provided="0" name="getRetryDelay" ref="0x405a2460" loc="65:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
+      <function command="" provided="0" name="getRetryDelay" ref="0x405a3460" loc="65:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
         <documentation loc="61:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t* ONE msg'&#10; @return the delay between retry attempts in ms for this message&#10;</long>
@@ -25610,7 +25610,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x405a2308" loc="65:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
+          <variable name="msg" ref="0x405a3308" loc="65:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25715,7 +25715,7 @@
           </variable>
         </parameters>
       </function>
-      <function command="" provided="0" name="wasDelivered" ref="0x405a2d80" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
+      <function command="" provided="0" name="wasDelivered" ref="0x405a3d80" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
         <documentation loc="67:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
           <short>&#10; </short>
           <long>&#10; @param 'message_t* ONE msg'&#10; @return TRUE if the message was delivered.&#10;</long>
@@ -25734,7 +25734,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x405a2c28" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
+          <variable name="msg" ref="0x405a3c28" loc="71:/opt/tinyos-2.1.2/tos/interfaces/PacketLink.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
@@ -25783,7 +25783,7 @@
         <short>&#10; </short>
         <long>&#10; @author Phil Levis&#10; @author David Gay&#10; Revision:  $Revision: 1.12 $&#10;&#10; Defines global error codes for error_t in TinyOS.&#10;</long>
       </documentation>
-      <function command="" provided="0" name="send" ref="0x405acb68" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
+      <function command="" provided="0" name="send" ref="0x405adb68" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
         <documentation loc="57:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
           <short> &#10; Send a packet with a data payload of &#60;tt>len&#60;/tt>.</short>
           <long> &#10; Send a packet with a data payload of &#60;tt>len&#60;/tt>. To determine&#10; the maximum available size, use the Packet interface of the&#10; component providing Send. If send returns SUCCESS, then the&#10; component will signal the sendDone event in the future; if send&#10; returns an error, it will not signal sendDone.  Note that a&#10; component may accept a send request which it later finds it&#10; cannot satisfy; in this case, it will signal sendDone with an&#10; appropriate error code.&#10;&#10; @param   'message_t* ONE msg'     the packet to send&#10; @param   len     the length of the packet payload&#10; @return          SUCCESS if the request was accepted and will issue&#10;                  a sendDone event, EBUSY if the component cannot accept&#10;                  the request now but will be able to later, FAIL&#10;                  if the stack is in a state that cannot accept requests&#10;                  (e.g., it's off).&#10;</long>
@@ -25805,14 +25805,14 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="msg" ref="0x405ac828" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
+          <variable name="msg" ref="0x405ad828" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-tag size="I:52" alignment="I:1"><nx_struct-ref name="message_t" ref="0x4044a640"/>
                 <typename><typedef-ref name="message_t" ref="0x404483e8"/></typename>
               </type-tag>
             </type-pointer>
           </variable>
-          <variable name="len" ref="0x405aca08" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
+          <variable name="len" ref="0x405ada08" loc="75:/opt/tinyos-2.1.2/tos/interfaces/Send.nc">
             <type-int cname="unsigned char" unsigned="" size="I:1" alignment="I:1">
               <typename><typedef-ref name="uint8_t" ref="0x40211b68"/></typename>
             </type-int>
@@ -25971,7 +25971,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" provided="0" name="request" ref="0x405add98" loc="88:/opt/tinyos-2.1.2/tos/interfaces/Resource.nc">
+      <function command="" provided="0" name="request" ref="0x4059ed98" loc="88:/opt/tinyos-2.1.2/tos/interfaces/Resource.nc">
         <documentation loc="78:/opt/tinyos-2.1.2/tos/interfaces/Resource.nc">
           <short>&#10; Request access to a shared resource.</short>
           <long>&#10; Request access to a shared resource. You must call release()&#10; when you are done with it.&#10;&#10; @return SUCCESS When a request has been accepted. The granted()&#10;                 event will be signaled once you have control of the&#10;                 resource.&#60;br>&#10;         EBUSY You have already requested this resource and a&#10;               granted event is pending&#10;</long>
@@ -26237,7 +26237,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" provided="0" name="stop" ref="0x405c13c0" loc="105:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc">
+      <function command="" provided="0" name="stop" ref="0x405c23c0" loc="105:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc">
         <documentation loc="97:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc">
           <short>&#10; Stop the component and any pertinent subcomponents (not all&#10; subcomponents may be turned off due to wakeup timers, etc.).</short>
           <long>&#10; Stop the component and any pertinent subcomponents (not all&#10; subcomponents may be turned off due to wakeup timers, etc.).&#10;&#10; @return SUCCESS if the component was either already off or was &#10;         successfully turned off&#60;br>&#10;         FAIL otherwise&#10;</long>
@@ -26976,8 +26976,8 @@
         </documentation>
         <interfacedef-ref qname="CC2420Config"/>
         <type-function size="I:1" alignment="I:1">
-          <type-tag size="I:8" alignment="I:1"><struct-ref name="ieee_eui64" ref="0x405839f8"/>
-            <typename><typedef-ref name="ieee_eui64_t" ref="0x40583e88"/></typename>
+          <type-tag size="I:8" alignment="I:1"><struct-ref name="ieee_eui64" ref="0x40583ad8"/>
+            <typename><typedef-ref name="ieee_eui64_t" ref="0x4058d010"/></typename>
           </type-tag>
           <function-parameters>
           </function-parameters>
@@ -27172,8 +27172,8 @@
         </documentation>
         <interfacedef-ref qname="LocalIeeeEui64"/>
         <type-function size="I:1" alignment="I:1">
-          <type-tag size="I:8" alignment="I:1"><struct-ref name="ieee_eui64" ref="0x405839f8"/>
-            <typename><typedef-ref name="ieee_eui64_t" ref="0x40583e88"/></typename>
+          <type-tag size="I:8" alignment="I:1"><struct-ref name="ieee_eui64" ref="0x40583ad8"/>
+            <typename><typedef-ref name="ieee_eui64_t" ref="0x4058d010"/></typename>
           </type-tag>
           <function-parameters>
           </function-parameters>
@@ -27748,7 +27748,7 @@
           <type-var size="U:" alignment="U:"><typedef-ref name="size_type" scoped="" ref="0x40694cb8"/></type-var>
         </typedef>
       </parameters>
-      <function command="" provided="0" name="setEdge" ref="0x4069e7c8" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
+      <function command="" provided="0" name="setEdge" ref="0x4069f7c8" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
         <documentation loc="84:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
           <short> &#10; Sets the capture edge.</short>
           <long> &#10; Sets the capture edge.&#10; @param up   TRUE = detect rising edge, FALSE = detect falling edge&#10;</long>
@@ -27763,7 +27763,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="up" ref="0x4069e670" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
+          <variable name="up" ref="0x4069f670" loc="88:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
             <type-int cname="unsigned char" unsigned="" size="I:1" alignment="I:1">
               <typename><typedef-ref name="bool" ref="0x4034c6e8"/></typename>
             </type-int>
@@ -27832,7 +27832,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" provided="0" name="isOn" ref="0x4069e240" loc="82:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
+      <function command="" provided="0" name="isOn" ref="0x4069f240" loc="82:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
         <documentation loc="78:/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128Capture.nc">
           <short> &#10; Is capture interrupt on? &#10; </short>
           <long> &#10; Is capture interrupt on? &#10; @return TRUE if capture enabled, FALSE otherwise&#10;</long>
@@ -28659,7 +28659,7 @@
         <short>&#10; Interface to an Atmega128 external interrupt pin that exposes just the&#10; interrupt vector routine for easy linking to generic components (see&#10; HplAtm128Interrupt for the full interface).</short>
         <long>&#10; Interface to an Atmega128 external interrupt pin that exposes just the&#10; interrupt vector routine for easy linking to generic components (see&#10; HplAtm128Interrupt for the full interface).&#10;&#10; @author Martin Turon &#60;mturon@xbow.com>&#10; @see HplAtm128Interrupt&#10;</long>
       </documentation>
-      <function event="" provided="0" name="fired" ref="0x40804a70" loc="48:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSig.nc">
+      <function event="" provided="0" name="fired" ref="0x407eda70" loc="48:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSig.nc">
         <documentation loc="45:/opt/tinyos-2.1.2/tos/chips/atm128/pins/HplAtm128InterruptSig.nc">
           <short>&#10; Signalled when an interrupt occurs on a pin&#10;</short>
         </documentation>
@@ -28926,7 +28926,7 @@
         <short>&#10; SPI Packet/buffer interface for sending data over an SPI bus.</short>
         <long>&#10; SPI Packet/buffer interface for sending data over an SPI bus.  This&#10; interface provides a split-phase send command which can be used for&#10; sending, receiving or both. It is a &#34;send&#34; command because reading&#10; from the SPI requires writing bytes. The send call allows NULL&#10; parameters for receive or send only operations. This interface is&#10; for buffer based transfers where the microcontroller is the master&#10; (clocking) device.&#10;&#10; Often, an SPI bus must first be acquired using a Resource interface&#10; before sending commands with SPIPacket. In the case of multiple&#10; devices attached to a single SPI bus, chip select pins are often also&#10; used.&#10;&#10; @author Philip Levis&#10; @author Jonathan Hui&#10; @author Joe Polastre&#10; Revision:  $Revision: 1.8 $&#10;</long>
       </documentation>
-      <function command="" provided="0" name="send" ref="0x4086a068" loc="70:/opt/tinyos-2.1.2/tos/interfaces/SpiPacket.nc">
+      <function command="" provided="0" name="send" ref="0x4086b068" loc="70:/opt/tinyos-2.1.2/tos/interfaces/SpiPacket.nc">
         <documentation loc="56:/opt/tinyos-2.1.2/tos/interfaces/SpiPacket.nc">
           <short>&#10; Send a message over the SPI bus.</short>
           <long>&#10; Send a message over the SPI bus.&#10;&#10; @param 'uint8_t* COUNT_NOK(len) txBuf' A pointer to the buffer to send over the bus. If this&#10;              parameter is NULL, then the SPI will send zeroes.&#10; @param 'uint8_t* COUNT_NOK(len) rxBuf' A pointer to the buffer where received data should&#10;              be stored. If this parameter is NULL, then the SPI will&#10;              discard incoming bytes.&#10; @param len   Length of the message.  Note that non-NULL rxBuf and txBuf&#10;              parameters must be AT LEAST as large as len, or the SPI&#10;              will overflow a buffer.&#10;&#10; @return SUCCESS if the request was accepted for transfer&#10;</long>
@@ -29002,7 +29002,7 @@
           </function-parameters>
         </type-function>
         <parameters>
-          <variable name="txBuf" ref="0x4086af18" loc="82:/opt/tinyos-2.1.2/tos/interfaces/SpiPacket.nc">
+          <variable name="txBuf" ref="0x4086bf18" loc="82:/opt/tinyos-2.1.2/tos/interfaces/SpiPacket.nc">
             <type-pointer size="I:2" alignment="I:1">
               <type-int cname="unsigned char" unsigned="" size="I:1" alignment="I:1">
                 <typename><typedef-ref name="uint8_t" ref="0x40211b68"/></typename>
@@ -29634,7 +29634,7 @@
         <short>&#10; Please refer to TEP 108 for more information about this interface and its&#10; intended use.&#60;br>&#60;br>&#10; &#10; This interface is provided by a Resource arbiter in order to allow&#10; users of a shared resource to configure that resource just before being&#10; granted access to it.</short>
         <long>&#10; Please refer to TEP 108 for more information about this interface and its&#10; intended use.&#60;br>&#60;br>&#10; &#10; This interface is provided by a Resource arbiter in order to allow&#10; users of a shared resource to configure that resource just before being&#10; granted access to it.  It will always be parameterized along side &#10; a parameterized Resource interface, with the ids from one mapping directly&#10; onto the ids of the other.&#10;&#10; @author Kevin Klues (klueska@cs.wustl.edu)&#10;</long>
       </documentation>
-      <function command="" provided="0" name="unconfigure" ref="0x40925c90" loc="65:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
+      <function command="" provided="0" name="unconfigure" ref="0x40927c90" loc="65:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
         <documentation loc="61:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
           <short>&#10; Used to unconfigure a resource just before releasing it.</short>
           <long>&#10; Used to unconfigure a resource just before releasing it.&#10; Must always be used in conjuntion with the Resource interface.&#10;</long>
@@ -29648,7 +29648,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" provided="0" name="configure" ref="0x409257d0" loc="59:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
+      <function command="" provided="0" name="configure" ref="0x409277d0" loc="59:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
         <documentation loc="55:/opt/tinyos-2.1.2/tos/interfaces/ResourceConfigure.nc">
           <short>&#10; Used to configure a resource just before being granted access to it.</short>
           <long>&#10; Used to configure a resource just before being granted access to it.&#10; Must always be used in conjuntion with the Resource interface.&#10;</long>

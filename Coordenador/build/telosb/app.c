@@ -26395,8 +26395,8 @@ static void CoordenadorC__sendMSG(uint16_t type, uint16_t param, uint16_t value,
           return;
         }
       __nesc_hton_uint8(btrpkt->node_id.nxdata, TOS_NODE_ID);
-      __nesc_hton_uint8(btrpkt->message_type.nxdata, GET);
-      __nesc_hton_uint8(btrpkt->param.nxdata, TEMP);
+      __nesc_hton_uint8(btrpkt->message_type.nxdata, type);
+      __nesc_hton_uint8(btrpkt->param.nxdata, param);
       __nesc_hton_uint16(btrpkt->value.nxdata, value);
       __nesc_hton_uint8(btrpkt->device_id.nxdata, device_id);
 

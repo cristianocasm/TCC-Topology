@@ -12712,15 +12712,22 @@ static __inline  uint16_t __nesc_ntoh_uint16(const void * source)
 static inline message_t *FFDC__Receive__receive(message_t *msg, void *payload, uint8_t len)
 #line 35
 {
-  printf("(FFD %u) : Recebi");
+
   if (len == sizeof(NetworkMsg )) {
       NetworkMsg *btrpkt = (NetworkMsg *)payload;
 
-#line 39
-      printf("(FFD %u) : message_type: %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->message_type.nxdata));
       switch (__nesc_ntoh_uint8(btrpkt->message_type.nxdata)) {
           case SET: 
-            printf("(FFD %u) : Mensagem SET recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
+            if (__nesc_ntoh_uint8(btrpkt->param.nxdata) == TEMP) {
+              printf("(FFD %u) : Mensagem SET_TEMPERATURE recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
+              }
+            else {
+#line 44
+              if (__nesc_ntoh_uint8(btrpkt->param.nxdata) == LIGHT) {
+                printf("(FFD %u) : Mensagem SET_LIGHT recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
+                }
+              }
+#line 46
           break;
           case TURN: 
             if (__nesc_ntoh_uint8(btrpkt->param.nxdata) == AIR) {
@@ -12728,27 +12735,27 @@ static inline message_t *FFDC__Receive__receive(message_t *msg, void *payload, u
                     printf("(FFD %u) : Mensagem TURN_AIR_ON recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
                   }
                 else {
-#line 48
+#line 51
                   if (__nesc_ntoh_uint16(btrpkt->value.nxdata) == OFF) {
                       printf("(FFD %u) : Mensagem TURN_AIR_OFF recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
                     }
                   }
               }
             else {
-#line 51
+#line 54
               if (__nesc_ntoh_uint8(btrpkt->param.nxdata) == TV) {
                   if (__nesc_ntoh_uint16(btrpkt->value.nxdata) == ON) {
                       printf("(FFD %u) : Mensagem TURN_TV_ON recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
                     }
                   else {
-#line 54
+#line 57
                     if (__nesc_ntoh_uint16(btrpkt->value.nxdata) == OFF) {
                         printf("(FFD %u) : Mensagem TURN_TV_OFF recebida de %u.\n", TOS_NODE_ID, __nesc_ntoh_uint8(btrpkt->node_id.nxdata));
                       }
                     }
                 }
               }
-#line 58
+#line 61
           break;
         }
       printfflush();
