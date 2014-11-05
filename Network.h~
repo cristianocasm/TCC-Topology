@@ -7,7 +7,15 @@ enum {
   // AM_BLINKTORADIO = 6,
   AM_NETWORK = 6,
   TIMER_PERIOD_MILLI = 5000,
-  AM_FFD_ADDR = 2
+  AM_FFD_ADDR = 11,
+  GET = 0,
+  SET = 1,
+  TAKE = 2,
+  TURN = 3,
+  TEMP = 0,
+  LIGHT = 1,
+  OFF = 0,
+  ON = 1
 };
 
 // O prefixo nx_ é específico da linguagem nesC e significa
@@ -21,7 +29,7 @@ typedef nx_struct NetworkMsg {
   nx_uint8_t message_type;
   nx_uint8_t param;
   nx_uint16_t value;
-  nx_uint8_t device_id
+  nx_uint8_t device_id;
 } NetworkMsg;
 
 #endif

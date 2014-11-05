@@ -4,10 +4,27 @@
 #define NETWORK_H
 
 enum {
-  // AM_BLINKTORADIO = 6,
   AM_NETWORK = 6,
   TIMER_PERIOD_MILLI = 5000,
-  AM_FFD_ADDR = 2
+
+  COORD = 1,
+  FFD = 2,
+  SENSOR = 6,
+
+  GET = 0,
+  SET = 1,
+  TAKE = 2,
+  TURN = 3,
+
+  TEMP = 0,
+  LIGHT = 1,
+  AIR = 2,
+  TV = 3,
+
+  OFF = 0,
+  ON = 1,
+
+  NIL = 0
 };
 
 // O prefixo nx_ é específico da linguagem nesC e significa
