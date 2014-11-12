@@ -1,4 +1,3 @@
-#include <Timer.h>
 #include "printf.h"
 #include "../Network.h"
 
@@ -16,27 +15,28 @@ implementation {
 
   message_t pkt;
   bool busy = FALSE;
-  uint16_t centigrade;
-  uint16_t luminance;
+  nx_uint16_t centigrade;
+  nx_uint16_t luminance;
 
-  void getSensorVal(uint16_t param, uint16_t node_id){
-    if(param == TEMP){
+  void getSensorVal(nx_uint16_t service){
+    if(service == TEMP)
       call TempRead.read();
-    }else if(param == LIGHT){
+    else if(service == LIGHT)
       call LightRead.read();
-    }
   }
 
-  void sendSensorVal(int param, uint16_t val){
+  void sendSensorVal(nx_uint16_t service, nx_uint8_t param){
     if (!busy) {
-          NetworkMsg* btrpkt = (NetworkMsg*)(call Packet.getPayload(&pkt, sizeof(NetworkMsg)));
+          NetworkMsg* btrpkt =
+              (NetworkMsg*)(call Packet.getPayload(&pkt, sizeof(NetworkMsg)));
 
           if (btrpkt == NULL) { return; }
 
-          btrpkt->node_id = TOS_NODE_ID;
+          btrpkt->sender = TOS_NODE_ID;
           btrpkt->message_type = TAKE;
           btrpkt->param = param;
-          btrpkt->value = val;
+          btrpkt->service = service;
+          btrpkt->node_id = COORD;
 
           if (call AMSend.send(COORD,
                 &pkt, sizeof(NetworkMsg)) == SUCCESS) {
@@ -51,23 +51,13 @@ implementation {
     call AMControl.start();
   }
 
-  event void AMControl.startDone(error_t err) {
-    if (err != SUCCESS) { call AMControl.start(); }
-  }
-
-  event void AMControl.stopDone(error_t err) {}
-
-  event void AMSend.sendDone(message_t* msg, error_t err) {
-    if (&pkt == msg) { busy = FALSE; }
-  }
-
   event message_t* Receive.receive(message_t* msg, void* payload, uint8_t len){
+
     if (len == sizeof(NetworkMsg)) {
       NetworkMsg* btrpkt = (NetworkMsg*)payload;
 
-      if(btrpkt->message_type == GET){
-          getSensorVal(btrpkt->param, btrpkt->node_id);
-      }
+      if(btrpkt->message_type == GET)
+          getSensorVal(btrpkt->service);
 
     }
     return msg;
@@ -94,5 +84,16 @@ implementation {
         call LightRead.read();
       }
    }
+
+    // Implementação dos eventos das interfaces utilizadas
+   event void AMControl.startDone(error_t err) {
+    if (err != SUCCESS) { call AMControl.start(); }
+  }
+
+  event void AMControl.stopDone(error_t err) {}
+
+  event void AMSend.sendDone(message_t* msg, error_t err) {
+    if (&pkt == msg) { busy = FALSE; }
+  }
 
 }
